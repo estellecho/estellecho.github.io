@@ -13,31 +13,25 @@ output: html_document
 </p>
 <br>
 
-🚨*THIS IS A FICTIONAL PROFILE MEANT AS AN EXAMPLE FOR THE DATA KORLAB COMMUNITY.* 
 <br><br><br>
-👋🏽 Hello, my name is John Appleseed. 
+📍 Hello, my name is Estelle Cho. 
 
-🎓 Soon to be grad with a M.S. in Data Science at ABC University. (May 2022)
+🎓 Soon to be grad with a M.S. in Business Analytics at the University of Southern California (December 2024).
 
-🌇 New York City Native, with a passion for developing and applying mathematical and statistical models to hands-on strategies that will grow business.
+🌟 **“Data Analyst” “~~~”**
 
-📚 **Talk about your past experience, your present experience, and what you did (about 4-5 sentences)**
+📚 Finished my BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea)
 
-...
+💻 **Business Analyst at K-POP Entertainment scene**
 
-💻 **Talk about what you want to do in the future (2 sentences)**
++ Analyzing marketing data, crafting marketing strategies, and collaborating with global, cross-functional teams to execute campaigns spanning TV shows, media interviews, and outdoor advertisements
 
-e.g. 💻 As for my future, I hope to one day work as a data analyst/scientist/engineer role and work with a marketing team.
 
-🏔 **Talk about hobbies(1 sentence)**
+📊 **Consultant at Strategy & Management consulting firm**
 
-e.g. 🏔In my free time, you can find me rock climbing.
++ Projects: Post Merger Integration, M&A Advisory, and Commercial & Operational Due Diligence
++ Estimating company valuations, identifying business opportunities, and working closely with internal stakeholders to pinpoint operational bottlenecks and devise effective solutions
 
-💪 **Highlight your strengths, use keywords (5-6)**
+💪 I'm driven by an insatiable curiosity. I'm the type of a person who always starts with “Why?” I always ask questions, go deep into the problems, and build solutions by incorporating new ideas. This quality has been fundamental in fostering my analytical thinking, problem-solving, and creative storytelling skills.
 
-e.g. 💪 Specialties in analyzing customer-driven data from e-commerce and applying insights to actionable strategies
-
-+ Programming: Python, R
-+ Data visualization: Tableau Software, Power BI
-+ Database: SQL, Postgre SQL, MongoDB, Neo4j
-+ Cloud Computing: AWS, GCP (BigQuery), Azure
+🧘️ Hot Yoga Lover! Volleyball, Music Production. Always interested in expanding my sports repertoire!
