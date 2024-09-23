@@ -11,9 +11,9 @@ navbar:
       #href: tutorials.html
     - text: "Stat/ML"
       menu: 
-      - text: "Predicting House Prices in Iowa"
+      - text: "Credit Card Transactions Fraud Detection"
         href: stat1.html
-      - text: "Predicting House Prices in LA"
+      - text: "Brazilian E-commerce Market Analysis"
         href: stat1.html
     - text: "DB/SQL"
       menu: 
