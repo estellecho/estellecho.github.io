@@ -9,11 +9,13 @@ navbar:
   left:
    # - text: "Tutorials"
       #href: tutorials.html
-    - text: "Stat/ML"
+    - text: "Projects"
       menu: 
       - text: "Credit Card Transactions Fraud Detection"
         href: stat1.html
       - text: "Brazilian E-commerce Market Analysis"
+        href: stat1.html
+      - text: "European Options Pricing Prediction"
         href: stat1.html
     - text: "DB/SQL"
       menu: 
