@@ -17,4 +17,4 @@ output: html_document
 
 📍 Los Angeles <br>
 📱 (213) 660 - 5938 <br>
-✉️ [yeunbinc@marshall.usc.edu](mailto:yeunbinc@marshall.usc.edu)<br>
+✉️ estelleycho@gmail.com](mailto:estelleycho@gmail.com)<br>
