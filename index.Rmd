@@ -14,24 +14,23 @@ output: html_document
 <br>
 
 <br><br><br>
-📍 Hello, my name is Estelle Cho. 
+📍 Hello, my name is **Estelle Cho**. 
 
-🎓 Soon to be grad with a M.S. in Business Analytics at the University of Southern California (December 2024).
+🎓 Soon to be grad with a **M.S. in Business Analytics at the University of Southern California** (December 2024). Finished my BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
 
-🌟 **“Data Analyst” “~~~”**
+🌟 **Data/Business Analyst in strategy & operations, specializing in product and customer-driven data, building strategic partnerships, and expanding business platforms**
 
-📚 Finished my BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea)
++ Data Analytics: Python, SQL, Excel
++ Data Visualization: Tabelau, Power BI, Google Analytics, PowerPoint
++ Data Science: ETL, Data Preprocessing, Statistical Analysis, Regression, Machine Learning Modeling
++ Database: SQL, MySQL, PostgreSQL, Neo4j
 
-💻 **Business Analyst at K-POP Entertainment scene**
+📊 I analyzed social media and sales data, helping to surpass product sales targets and increase digital platform subscribers. I contributed to client due diligence projects by analyzing large datasets, applying statistical analysis, and optimizing revenue projections and forecasting models. Additionally, I managed reporting dashboards, fostered client partnerships, and collaborated with various stakeholders.
 
-+ Analyzing marketing data, crafting marketing strategies, and collaborating with global, cross-functional teams to execute campaigns spanning TV shows, media interviews, and outdoor advertisements
++ DODOSKIN_Data Analyst Intern - E-commerce
++ Looxent Inc_Management Consultant - Strategy & Operation Consulting
++ JYP Entertainment_Business Analyst - K-pop Music Marketing
 
+🔥 At the heart of what I do is a genuine curiosity—I’m always asking “Why?” This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions.
 
-📊 **Consultant at Strategy & Management consulting firm**
-
-+ Projects: Post Merger Integration, M&A Advisory, and Commercial & Operational Due Diligence
-+ Estimating company valuations, identifying business opportunities, and working closely with internal stakeholders to pinpoint operational bottlenecks and devise effective solutions
-
-💪 At the core of my professional values is an insatiable curiosity—I always begin by asking "Why?" This drive has shaped my problem-solving approach, encouraging me to dive deep into issues, explore various possibilities, and implement creative solutions.
-
-🧘️ Passionate about Hot Yoga, Tennis, and Music Production! Always eager to dive into new experiences and explore exciting horizons!!
+🧘️ Hot Yoga, Tennis, Running, and Music Production! Outside of work, you'll find me exploring exciting activities!
