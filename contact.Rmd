@@ -17,4 +17,4 @@ output: html_document
 
 📍 Los Angeles <br>
 📱 (213) 660 - 5938 <br>
-✉️ estelleycho@gmail.com](mailto:estelleycho@gmail.com)<br>
+✉️ estelleycho@gmail.com <br>
