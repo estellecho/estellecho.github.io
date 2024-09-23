@@ -17,11 +17,7 @@ navbar:
         href: stat1.html
       - text: "European Options Pricing Prediction"
         href: stat1.html
-    - text: "DB/SQL"
-      menu: 
-      - text: "Movie Explorer"
-        href: dbsql1.html
-    - text: "Visualization"
+    - text: "Dashboard"
       menu: 
       - text: "Squid Game Elimination Analysis"
         href: visualization1.html
