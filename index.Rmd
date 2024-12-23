@@ -23,7 +23,7 @@ output: html_document
 + Data Analytics: Python, SQL, Excel
 + Data Visualization: Tabelau, Power BI, Google Analytics, PowerPoint
 + Data Science: ETL, Data Preprocessing, Statistical Analysis, Regression, Machine Learning Modeling
-+ Database: SQL, MySQL, PostgreSQL, Neo4j
++ Database: SQL, MySQL, PostgreSQL, Neo4js
 
 📊 I analyzed social media and sales data, helping to surpass product sales targets and increase digital platform subscribers. I contributed to client due diligence projects by analyzing large datasets, applying statistical analysis, and optimizing revenue projections and forecasting models. Additionally, I managed reporting dashboards, fostered client partnerships, and collaborated with various stakeholders.
 
