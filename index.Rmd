@@ -14,9 +14,9 @@ output: html_document
 <br>
 
 <br><br><br>
-📍 Hello, my name is **Estelle Cho**. 
+📍 Hello, my name is **Estelle Cho**.
 
-🎓 Soon to be grad with a **M.S. in Business Analytics at the University of Southern California** (December 2024). Finished my BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
+🎓 Soon to be grad with a **M.S. in Business Analytics at the University of Southern California** (May 2025). Finished my BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
 
 🌟 **Data/Business Analyst in strategy & operations, specializing in product and customer-driven data, building strategic partnerships, and expanding business platforms**
 
