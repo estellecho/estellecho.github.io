@@ -1,5 +1,5 @@
 ---
-pagetitle: "About"
+pagetitle: "Stat0"
 output: html_document
 ---
 
@@ -20,4 +20,3 @@ output: html_document
 
 <p align="center">
     <img src="images/projects.png" style="width:100%; border:0.001px solid;" alt="Image projects">
-</p>
