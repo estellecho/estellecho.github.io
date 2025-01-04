@@ -7,13 +7,13 @@ output: html_document
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 <p align="center">
-    <img src="images/education.png" style="width:100%; border:0.1px solid; margin-bottom: 20px;" alt="Image education">
+    <img src="images/education.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image education">
 </p>
 
 <p align="center">
-    <img src="images/project.png" style="width:100%; border:0.1px solid; margin-bottom: 20px;" alt="Image project">
+    <img src="images/project.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image project">
 </p>
 
 <p align="center">
-    <img src="images/project.png" style="width:100%; border:0.1px solid;" alt="Image project">
+    <img src="images/project.png" style="width:100%; border:0.001px solid;" alt="Image project">
 </p>
