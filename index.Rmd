@@ -6,31 +6,34 @@ output: html_document
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
+<style>
+  body {
+    font-size: 16px;
+  }
+</style>
+
 <br>
 
 <p align="center">
-<img src="images/main pic2.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
+  <img src="images/main pic2.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
 </p>
 
 <br>
-📍 Hello! My name is **Estelle Cho**.
+📍 <span>Hello! My name is <strong>Estelle Cho</strong>.</span>
 
-🎓 Soon to be grad with a **M.S. in Business Analytics at the University of Southern California** (May 2025). Finished my BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
+🎓 Soon to be grad with a <strong>M.S. in Business Analytics at the University of Southern California</strong> (May 2025). Finished BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
 
-🌟 **Data/Business Analyst in Strategy & Operations and Customer-Driven Data and translating findings into actionable insights**
+🌟 <strong>Data/Business Analyst in Strategy & Operations and Customer-Driven Data and translating findings into actionable insights</strong>
 
-+ Data Analytics: Python, SQL, Excel
-+ Data Visualization: Tabelau, Power BI, Google Analytics, PowerPoint
-+ Advanced Analytics: Data Wrangling, Statistical Analysis, Machine Learning, Predictive Modeling
-+ Database: SQL, MySQL, PostgreSQL, Neo4js
+<ul>
+  <li>Data Analytics: Python, SQL, Excel</li>
+  <li>Data Visualization: Tableau, Power BI, Google Analytics, PowerPoint</li>
+  <li>Advanced Analytics: Data Wrangling, Statistical Analysis, Machine Learning, Predictive Modeling</li>
+  <li>Database: SQL, MySQL, PostgreSQL, Neo4js</li>
+</ul>
 
-📊 Across B2C and B2B industries, I have focused on addressing business challenges by analyzing diverse datasets, including financial metrics, social media insights, platform performance, and industry data. At JYP Entertainment and DODOSKIN, I **managed daily dashboards, identified key trends, and developed data-driven strategies**. In consulting, I built **forecasting models, predictive models, and revenue projections** to support business decisions. Throughout, I have consistently **translated data insights into visuals and reports for non-technical stakeholders**.
-
-+ DODOSKIN: Data Analyst Intern (E-commerce)
-+ Looxent Consulting: Management Consultant (Strategy & Operation)
-+ JYP Entertainment: Business Analyst (K-pop Music Marketing)
+📊 Across B2C and B2B industries, I have addressed business challenges by analyzing datasets, including financial metrics, social media insights, platform performance, and industry data. As a data analyst in e-commerce and a business analyst in marketing, I <strong>managed daily dashboards, identified key trends, and developed data-driven strategies</strong>. In consulting, I built <strong>forecasting models, predictive models, and revenue projections</strong> to support business decisions. Throughout, I <strong>translated data insights into visuals and reports for non-technical stakeholders</strong>.
 
 🔥 At the heart of what I do is a genuine curiosity—I’m always asking “Why?” This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions.
 
-🧘️ Hot Yoga, Tennis, Running, and Music Production! Outside of work, you'll find me exploring exciting activities!
-
+🧘️ Hot Yoga, Tennis, Music Production, Life Counseling! Outside of work, you'll find me exploring exciting activities!
