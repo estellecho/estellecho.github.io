@@ -19,11 +19,11 @@ output: html_document
 </p>
 
 <br>
-📍 <span>Hello! My name is <strong>Estelle Cho</strong>.</span>
+📍 <span>Hello! My name is **Estelle Cho**.</span>
 
 🎓 Soon to be grad with a <strong>M.S. in Business Analytics at the University of Southern California</strong> (May 2025). Finished BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
 
-🌟 <strong>Data/Business Analyst in Strategy & Operations and Customer-Driven Data and translating findings into actionable insights</strong>
+🌟 **Data/Business Analyst in Strategy & Operations and Customer-Driven Data and translating findings into actionable insights**
 
 <ul>
   <li>Data Analytics: Python, SQL, Excel</li>
@@ -32,7 +32,7 @@ output: html_document
   <li>Database: SQL, MySQL, PostgreSQL, Neo4js</li>
 </ul>
 
-📊 Across B2C and B2B industries, I have addressed business challenges by analyzing datasets, including financial metrics, social media insights, platform performance, and industry data. As a data analyst in e-commerce and a business analyst in marketing, I <strong>managed daily dashboards, identified key trends, and developed data-driven strategies</strong>. In consulting, I built <strong>forecasting models, predictive models, and revenue projections</strong> to support business decisions. Throughout, I <strong>translated data insights into visuals and reports for non-technical stakeholders</strong>.
+📊 As a Data Analyst in E-commerce and a Business Analyst in Marketing, I **managed daily dashboards, identified key trends, and developed data-driven strategies**. In consulting, I built **forecasting models, predictive models, and revenue projections** to support business decisions. Leveraging **Python, SQL, Excel, and Tableau**, I analyzed diverse datasets to uncover customer insights, evaluate financial metrics, and craft business reports.
 
 🔥 At the heart of what I do is a genuine curiosity—I’m always asking “Why?” This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions.
 
