@@ -35,5 +35,3 @@ output: html_document
 
 🧘️ Hot Yoga, Tennis, Running, and Music Production! Outside of work, you'll find me exploring exciting activities!
 
-e.g. Please find my resume [HERE](files/Estelle Cho_Resume.pdf).
-
