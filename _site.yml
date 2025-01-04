@@ -12,11 +12,11 @@ navbar:
     - text: "Projects"
       menu: 
       - text: "Credit Card Transactions Fraud Detection"
-        href: stat1.html
+        href: stat2.html
       - text: "Brazilian E-commerce Market Analysis"
-        href: stat1.html
+        href: stat3.html
       - text: "European Options Pricing Prediction"
-        href: stat1.htmls
+        href: stat4.htmls
     - text: "Dashboard"
       menu: 
       - text: "Squid Game Elimination Analysis"
