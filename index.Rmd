@@ -25,7 +25,7 @@ output: html_document
 + Advanced Analytics: Data Wrangling, Statistical Analysis, Machine Learning, Predictive Modeling
 + Database: SQL, MySQL, PostgreSQL, Neo4js
 
-📊 Having worked across B2C and B2B industries, I have focused on addressing business challenges by analyzing diverse datasets, including financial metrics, social media insights, platform performance, and industry-specific data. At JYP Entertainment and DODOSKIN, I **managed daily dashboards, identified key trends, and developed data-driven strategies**. In consulting, I built **forecasting models, predictive models, and revenue projections** to support business decisions. Throughout, I have consistently **translated data insights into visuals and reports for non-technical stakeholders**.
+📊 Having worked across B2C and B2B industries, I have focused on addressing business challenges by analyzing diverse datasets, including financial metrics, social media insights, platform performance, and industry-specific data. At JYP Entertainment and DODOSKIN, I managed daily dashboards, identified key trends, and developed data-driven strategies. In consulting, I built forecasting models, predictive models, and revenue projections to support business decisions. Throughout, I have consistently translated data insights into visuals and reports for non-technical stakeholders.
 
 + DODOSKIN: Data Analyst Intern (E-commerce)
 + Looxent Consulting: Management Consultant (Strategy & Operation)
