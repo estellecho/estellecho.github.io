@@ -7,8 +7,8 @@ output_dir: "."
 navbar:
   title: "Estelle Cho"
   left:
-   # - text: "Tutorials"
-      #href: tutorials.html
+    - text: "About"
+      href: stat1.html
     - text: "Projects"
       menu: 
       - text: "Credit Card Transactions Fraud Detection"
