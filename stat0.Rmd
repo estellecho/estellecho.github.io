@@ -15,3 +15,7 @@ output: html_document
 <p align="center">
     <img src="images/project.png" style="width:100%; border:0.1px solid;" alt="Image project">
 </p>
+
+<p align="center">
+    <img src="images/project.png" style="width:100%; border:0.1px solid;" alt="Image project">
+</p>
