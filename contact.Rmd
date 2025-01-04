@@ -13,7 +13,7 @@ output: html_document
 <br><br><br><br><br><br>
 
 #### **Estelle Cho**
-##### M.S. Candidate in Business Analytics | University of Southern California <img src="images/school_logo.png" style="width:35%;" align="right">
+##### M.S. in Business Analytics | University of Southern California <img src="images/school_logo.png" style="width:35%;" align="right">
 
 📍 Los Angeles <br>
 📱 (213) 660 - 5938 <br>
