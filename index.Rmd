@@ -34,3 +34,6 @@ output: html_document
 🔥 At the heart of what I do is a genuine curiosity—I’m always asking “Why?” This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions.
 
 🧘️ Hot Yoga, Tennis, Running, and Music Production! Outside of work, you'll find me exploring exciting activities!
+
+e.g. Please find my resume [HERE](files/Estelle Cho_Resume.pdf).
+
