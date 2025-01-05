@@ -15,7 +15,7 @@ output: html_document
 <br>
 
 <p align="center">
-  <img src="images/main pic2.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
+  <img src="images/main page pic.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
 </p>
 
 <br>
