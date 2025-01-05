@@ -8,7 +8,8 @@ output: html_document
 
 <style>
   body {
-    font-size: 16px;
+    font-size: 22px; /* Increase font size for all text */
+    text-align: justify; /* Justify all text in the body */
   }
 </style>
 
@@ -19,21 +20,8 @@ output: html_document
 </p>
 
 <br>
-📍 <span>Hello! My name is **Estelle Cho**.</span>
+🌟 **My journey has been unique**—from English and Cultural Content major, working in Music Entertainment and Business Consulting, to diving into Data Analytics. Looking back, I’ve realized my passion lies in **solving business challenges, analyzing data, and turning insights into visuals and reports that help others understand the story behind the numbers**.
 
-🎓 Soon to be grad with a **M.S. in Business Analytics** at the University of Southern California (May 2025). Finished BA with English Literature and Language, Cultural Contents Convergence studies at ChungAng University (Seoul, Korea).
+📊 As a **Data and Business Analyst**, I analyzed product and platform data, managed dashboards, identified key trends, and developed data-driven strategies. 💼 As a **Consultant**, I focused on business valuation and operational improvement by building forecasting models, predictive models, and revenue projections.
 
-🌟 **Data/Business Analyst in Strategy & Operations and Customer-Driven Data** and translating findings into actionable insights
-
-<ul>
-  <li>Data Analytics: Python, SQL, Excel</li>
-  <li>Data Visualization: Tableau, Power BI, Google Analytics, PowerPoint</li>
-  <li>Advanced Analytics: Data Wrangling, Statistical Analysis, Machine Learning, Predictive Modeling</li>
-  <li>Database: SQL, MySQL, PostgreSQL, Neo4js</li>
-</ul>
-
-📊 As a Data Analyst in E-commerce and a Business Analyst in Entertainment, I managed daily dashboards, identified key trends, and developed data-driven strategies. In Consulting, I built forecasting models, predictive models, and revenue projections to support business decisions. Leveraging Python, SQL, Excel, and Tableau, I analyzed diverse datasets to uncover customer insights, evaluate financial metrics, and craft business reports.
-
-🔥 At the heart of what I do is a genuine curiosity—I’m always asking “Why?” This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions.
-
-🧘️ Hot Yoga, Tennis, Music Production, Life Counseling! Outside of work, you'll find me exploring exciting activities!
+🔥 Outside of work, I enjoy exploring nature, playing tennis, practicing hot yoga, cooking, making music, and offering life advice to friends and colleagues!
