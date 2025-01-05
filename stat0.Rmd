@@ -23,5 +23,5 @@ output: html_document
 </p>
 
 <p align="center">
-    <img src="images/key downtime.png" style="width:100%; border:0.001px solid;" alt="Image key downtime">
+    <img src="images/downtime.png" style="width:100%; border:0.001px solid;" alt="Image downtime">
 </p>
