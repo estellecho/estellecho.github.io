@@ -19,9 +19,9 @@ output: html_document
 </p>
 
 <p align="center">
-    <img src="images/key skills.png" style="width:100%; border:0.001px solid;" alt="Image key skills">
+    <img src="images/key skills.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image key skills">
 </p>
 
 <p align="center">
-    <img src="images/downtime.png" style="width:100%; border:0.001px solid;" alt="Image downtime">
+    <img src="images/downtime.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image downtime">
 </p>
