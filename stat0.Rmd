@@ -1,5 +1,5 @@
 ---
-pagetitle: "About"
+pagetitle: "Stat0"
 output: html_document
 ---
 
@@ -7,17 +7,21 @@ output: html_document
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 <p align="center">
-    <img src="images/education.png" style="width:100%; border:0px solid; margin-bottom: 20px;" alt="Image education">
+    <img src="images/education.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image education">
 </p>
 
 <p align="center">
-    <img src="images/projects.png" style="width:100%; border:0px solid; margin-bottom: 20px;" alt="Image projects">
+    <img src="images/professional journey.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image professional journey">
 </p>
 
 <p align="center">
-    <img src="images/projects.png" style="width:100%; border:0px solid; margin-bottom: 20px;" alt="Image projects">
+    <img src="images/projects.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image projects">
 </p>
 
 <p align="center">
-    <img src="images/projects.png" style="width:100%; border:0px solid;" alt="Image projects">
+    <img src="images/key skills.png" style="width:100%; border:0.001px solid;" alt="Image key skills">
+</p>
+
+<p align="center">
+    <img src="images/key downtime.png" style="width:100%; border:0.001px solid;" alt="Image key downtime">
 </p>
