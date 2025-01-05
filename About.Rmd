@@ -1,5 +1,5 @@
 ---
-pagetitle: "Stat0"
+pagetitle: "About"
 output: html_document
 ---
 
