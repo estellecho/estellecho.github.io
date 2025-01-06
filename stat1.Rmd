@@ -14,7 +14,7 @@ output:
 
 <br><br><br>
 
-## **Credit Card Transactions Fraud Detection**
+## **Credit Card Transactions Analysis and Fraud Detection**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
 ![](https://img.shields.io/badge/-LASSO-red)
