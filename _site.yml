@@ -11,11 +11,11 @@ navbar:
       href: stat0.html
     - text: "Projects"
       menu: 
-      - text: "Credit Card Transactions Fraud Detection"
+      - text: "Credit Card Transactions Analysis and Fraud Detection"
         href: stat1.html
-      - text: "Brazilian E-commerce Market Analysis"
+      - text: "Spotify Streaming Analysis and Marketing Investment Strategy"
         href: stat2.html
-      - text: "European Options Pricing Prediction"
+      - text: "New York City’s Property Valuation Analysis"
         href: stat3.htmls
     - text: "Dashboard"
       menu: 
