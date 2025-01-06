@@ -14,7 +14,7 @@ output:
 
 <br><br><br>
 
-## **Brazilian E-commerce Market Analysis**
+## **Spotify Streaming Analysis and Marketing Investment Strategy**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
 ![](https://img.shields.io/badge/-LASSO-red)
