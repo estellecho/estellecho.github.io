@@ -57,7 +57,7 @@ Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-
 
 ### 5. Report
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report.
+Please click [HERE](files/Credit Card Transactions Analysis and Fraud Detection Report.pdf) for the analysis report.
 
 <br>
 
