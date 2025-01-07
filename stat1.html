@@ -428,9 +428,59 @@ dates, merchant details, cardholder IDs, and fraud labels.</p>
 </div>
 <div id="key-findings" class="section level3">
 <h3>2. Key Findings</h3>
-<p>To predict the final price of each home using 79 explanatory
-variables describing (almost) every aspect of residential homes in Ames,
-Iowa.</p>
+<p>This project uncovered several key insights and patterns that provide
+a deeper understanding of credit card transactions and fraud detection
+processes. (Specific explanations and details can be found in the 5.
+Report below.)</p>
+<p><strong>1. Characteristics of the Dataset</strong></p>
+<ul>
+<li>The dataset included variables such as date, merchant number,
+merchant description, merchant state, merchant zip code, transaction
+type, record number, and card number.</li>
+<li>Interactive relationships between variables (e.g., Merchant Number,
+Merchant State, and Merchant Zip Code) were leveraged to address missing
+values.</li>
+</ul>
+<p><strong>2. Transaction Amount Analysis</strong></p>
+<ul>
+<li>Most transaction amounts were relatively small, with a small
+proportion of extreme outliers representing significantly larger
+amounts. These extreme outliers (top 1% of the distribution) were
+removed to prevent distortion in visualizations and analyses.</li>
+<li>This highlights the importance of addressing outliers in financial
+data to maintain robust and reliable analyses.</li>
+</ul>
+<p><strong>3. Temporal Trends</strong></p>
+<ul>
+<li>February: Higher transaction volumes, likely driven by tax refunds,
+performance bonuses, and post-holiday sales.</li>
+<li>July–August: Increased activity, possibly attributed to summer
+vacations and holiday spending.</li>
+<li>October: A stabilization of transaction volumes corresponding to the
+start of the U.S. government fiscal year.</li>
+<li>November–December: Significant spikes, reflecting year-end holiday
+shopping and festivities.</li>
+</ul>
+<p><strong>4. Machine Learning Exploration</strong></p>
+<ul>
+<li>Multiple machine learning models were evaluated, including Logistic
+Regression, Decision Trees, Random Forests, LightGBM, CatBoost, and
+Neural Networks.</li>
+<li>After extensive hyperparameter tuning and performance evaluation,
+the CatBoost model was selected as the optimal choice due to its
+balanced performance across training, testing, and out-of-time (OOT)
+datasets.</li>
+</ul>
+<p><strong>5. Financial Impact</strong></p>
+<ul>
+<li>Financial analysis of the CatBoost model’s predictions revealed that
+at a 6% cutoff, the model achieved a Fraud Detection Rate (FDR) of 60%
+on OOT data. Projected annual savings were estimated at approximately
+$47.18 million.</li>
+<li>This cutoff struck a balance between maximizing fraud detection and
+minimizing the costs of investigating false positives, ensuring minimal
+disruption to legitimate customer transactions.</li>
+</ul>
 <p><br></p>
 </div>
 <div id="approach" class="section level3">
@@ -439,19 +489,21 @@ Iowa.</p>
 src="https://img.shields.io/badge/-Data%20Cleaning-orange" /> <img
 src="https://img.shields.io/badge/-Feature%20Engineering-green" /> <img
 src="https://img.shields.io/badge/-Feature%20Selection-purple" /> <img
-src="https://img.shields.io/badge/-Modeling%20Exploration-red" /> <img
+src="https://img.shields.io/badge/-Modeling-red" /> <img
 src="https://img.shields.io/badge/-Financial%20Analysis-yellow" /></p>
 <ul>
-<li>Data Cleaning: Exclusions, Outliers, Field Imputation</li>
-<li>Feature Engineering: Target Encoding, Variable Creation
-(Preprocessing, Creating Entities, Bedford’s Law)</li>
-<li>Feature Selection: Filer, Wrapper</li>
-<li>Model Exploration: Logistic Regression, Decision Tree, Random
-Forest, LightGBM, CatBoost, and Neural Network. Each model comes with
-its own set of hyperparameters that were adjusted to explore various
-configurations and assess performance.</li>
-<li>Financial Analysis: Fraud Detection Rate (FDR), False Positive Rate
-(FPR), KS Statistic, Financial Tradeoff Analysis</li>
+<li><strong>Data Cleaning</strong>: Exclusions, Outliers, Field
+Imputation</li>
+<li><strong>Feature Engineering</strong>: Target Encoding, Variable
+Creation (Preprocessing, Creating Entities, Bedford’s Law)</li>
+<li><strong>Feature Selection</strong>: Filer, Wrapper</li>
+<li><strong>Model Exploration</strong>: Logistic Regression, Decision
+Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model,
+with its unique set of hyperparameters, was rigorously experimented to
+optimize performance and achieve balanced metrics.</li>
+<li><strong>Financial Analysis</strong>: Fraud Detection Rate (FDR),
+False Positive Rate (FPR), KS Statistic, Financial Tradeoff
+Analysis</li>
 </ul>
 <p><br></p>
 </div>

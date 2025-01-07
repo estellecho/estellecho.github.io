@@ -39,7 +39,34 @@ The dataset originates from a U.S. government organization in Tennessee, coverin
 
 ### 2. Key Findings
 
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
+This project uncovered several key insights and patterns that provide a deeper understanding of credit card transactions and fraud detection processes. (Specific explanations and details can be found in the 5. Report below.)
+
+**1. Characteristics of the Dataset**
+
+  +  The dataset included variables such as date, merchant number, merchant description, merchant state, merchant zip code, transaction type, record number, and card number.
+  + Interactive relationships between variables (e.g., Merchant Number, Merchant State, and Merchant Zip Code) were leveraged to address missing values.
+
+**2. Transaction Amount Analysis**
+
+  + Most transaction amounts were relatively small, with a small proportion of extreme outliers representing significantly larger amounts. These extreme outliers (top 1% of the distribution) were removed to prevent distortion in visualizations and analyses. 
+  + This highlights the importance of addressing outliers in financial data to maintain robust and reliable analyses.
+  
+**3. Temporal Trends**
+
+  + February: Higher transaction volumes, likely driven by tax refunds, performance bonuses, and post-holiday sales.
+  + July–August: Increased activity, possibly attributed to summer vacations and holiday spending.
+  + October: A stabilization of transaction volumes corresponding to the start of the U.S. government fiscal year.
+  + November–December: Significant spikes, reflecting year-end holiday shopping and festivities.
+
+**4. Machine Learning Exploration**
+
+  + Multiple machine learning models were evaluated, including Logistic Regression, Decision Trees, Random Forests, LightGBM, CatBoost, and Neural Networks.
+  + After extensive hyperparameter tuning and performance evaluation, the CatBoost model was selected as the optimal choice due to its balanced performance across training, testing, and out-of-time (OOT) datasets.
+  
+**5. Financial Impact**
+
+  + Financial analysis of the CatBoost model's predictions revealed that at a 6% cutoff, the model achieved a Fraud Detection Rate (FDR) of 60% on OOT data. Projected annual savings were estimated at approximately $47.18 million.
+  + This cutoff struck a balance between maximizing fraud detection and minimizing the costs of investigating false positives, ensuring minimal disruption to legitimate customer transactions.
 
 <br>
 
@@ -49,14 +76,14 @@ To predict the final price of each home using 79 explanatory variables describin
 ![](https://img.shields.io/badge/-Data%20Cleaning-orange)
 ![](https://img.shields.io/badge/-Feature%20Engineering-green)
 ![](https://img.shields.io/badge/-Feature%20Selection-purple)
-![](https://img.shields.io/badge/-Modeling%20Exploration-red)
+![](https://img.shields.io/badge/-Modeling-red)
 ![](https://img.shields.io/badge/-Financial%20Analysis-yellow)
 
-  + Data Cleaning: Exclusions, Outliers, Field Imputation
-  + Feature Engineering: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
-  + Feature Selection: Filer, Wrapper
-  + Model Exploration: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model comes with its own set of hyperparameters that were adjusted to explore various configurations and assess performance. 
-  + Financial Analysis: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
+  + **Data Cleaning**: Exclusions, Outliers, Field Imputation
+  + **Feature Engineering**: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
+  + **Feature Selection**: Filer, Wrapper
+  + **Model Exploration**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
+  + **Financial Analysis**: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
 
 <br>
 
