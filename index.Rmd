@@ -6,12 +6,12 @@ output: html_document
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
-<!-- <style> -->
-<!--   body { -->
-<!--     font-size: 22px; /* Increase font size for all text */ -->
-<!--     text-align: justify; /* Justify all text in the body */ -->
-<!--   } -->
-<!-- </style> -->
+<style>
+  body {
+    font-size: 22px; /* Increase font size for all text */
+    text-align: justify; /* Justify all text in the body */
+  }
+</style>
 
 <br>
 
