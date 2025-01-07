@@ -26,12 +26,12 @@ output:
 
 ### 1. Overview
 
-As the online world continues to expand, the volume of financial transactions has grown significantly. Credit card transactions, in particular, serve as a rich source of consumer-driven data, offering insights into spending behaviors and uncovering valuable metrics that reveal patterns and trends in financial products.
+As the online world continues to expand, the volume of financial transactions has grown significantly. Credit card transactions, in particular, serve as a rich source of **consumer-driven data**, offering insights into **spending behaviors** and uncovering valuable metrics that reveal **patterns and trends in financial products**.
 
 The primary objectives of this project are:
 
-  + To understand financial transaction trends through statistical analysis and data visualization
-  + To build a machine learning model that accurately detects fraudulent activities
+  + **To understand financial transaction trends through statistical analysis and data visualization**
+  + **To build a machine learning model that accurately detects fraudulent activities**
 
 The dataset originates from a U.S. government organization in Tennessee, covering real credit card transactions from January to December 2010. It includes 97,852 records with 2,000 manually generated fraud cases for analysis. The variables include transaction amounts, dates, merchant details, cardholder IDs, and fraud labels.
 
