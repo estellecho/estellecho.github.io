@@ -14,27 +14,28 @@ output:
 
 ## **[Credit Card Transactions Analysis and Fraud Detection]**
 
-![](https://img.shields.io/badge/Using-Python-blue)
-![](https://img.shields.io/badge/-LASSO-red)
-![](https://img.shields.io/badge/-XGBoost-success)
-
-<br><br><br>
-
-### 1. Overview
+<br>
 
 <p align="center">
 <img src="images/p1_credit card.jpeg" style="width:100%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
 
+### 1. Overview
+
 <br>
 
 ### 2. Key Findings
+
 To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 <br>
 
 ### 3. Methodology
+
+![](https://img.shields.io/badge/Using-Python-blue)
+![](https://img.shields.io/badge/-LASSO-red)
+![](https://img.shields.io/badge/-XGBoost-success)
 
   + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
   + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
