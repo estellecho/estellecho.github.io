@@ -20,7 +20,7 @@ output:
 
 <br><br><br>
 
-### **1. Overview**
+### 1. Overview
 
 <p align="center">
 <img src="images/p1.credit card.jpeg" style="width:100%; border:0px solid; margin-right: 20px" align="center">
@@ -29,12 +29,12 @@ output:
 
 <br>
 
-### **2. Key Findings**
+### 2. Key Findings
 To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 <br>
 
-### **3. Methodology**
+### 3. Methodology
 
   + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
   + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
@@ -42,13 +42,13 @@ To predict the final price of each home using 79 explanatory variables describin
 
 <br>
 
-### **4. Code**
+### 4. Code
 
 Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the code.
 
 <br>
 
-### **5. Report**
+### 5. Report
 
 Please click [HERE](files/Credit Card Transactions Analysis and Fraud Detection Report (final).pdf) for the analysis report.
 
