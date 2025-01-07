@@ -433,23 +433,25 @@ variables describing (almost) every aspect of residential homes in Ames,
 Iowa.</p>
 <p><br></p>
 </div>
-<div id="methodology" class="section level3">
-<h3>3. Methodology</h3>
+<div id="approach" class="section level3">
+<h3>3. Approach</h3>
 <p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
-src="https://img.shields.io/badge/-LASSO-red" /> <img
-src="https://img.shields.io/badge/-XGBoost-success" /></p>
+src="https://img.shields.io/badge/-Data%20Cleaning-orange" /> <img
+src="https://img.shields.io/badge/-Feature%20Engineering-green" /> <img
+src="https://img.shields.io/badge/-Feature%20Selection-purple" /> <img
+src="https://img.shields.io/badge/-Modeling%20Exploration-red" /> <img
+src="https://img.shields.io/badge/-Financial%20Analysis-yellow" /></p>
 <ul>
-<li>LASSO regressions showed the best performance with a cross
-validation RMSE-score of 0.1121. Although there is a lot of
-multicollinearity among the variables, LASSO regression include feature
-selection; it does not select a substantial number of the available
-variables in its model, as it is supposed to do.</li>
-<li>The XGBoost model also performs very well with a cross validation
-RMSE of 0.1162.</li>
-<li>As those two algorithms are very different, averaging predictions is
-likely to improve the predictions. As the Lasso cross validated RMSE is
-better than XGBoost’s CV score, I decided to weight the Lasso results
-double.</li>
+<li>Data Cleaning: Exclusions, Outliers, Field Imputation</li>
+<li>Feature Engineering: Target Encoding, Variable Creation
+(Preprocessing, Creating Entities, Bedford’s Law)</li>
+<li>Feature Selection: Filer, Wrapper</li>
+<li>Model Exploration: Logistic Regression, Decision Tree, Random
+Forest, LightGBM, CatBoost, and Neural Network. Each model comes with
+its own set of hyperparameters that were adjusted to explore various
+configurations and assess performance.</li>
+<li>Financial Analysis: Fraud Detection Rate (FDR), False Positive Rate
+(FPR), KS Statistic, Financial Tradeoff Analysis</li>
 </ul>
 <p><br></p>
 </div>

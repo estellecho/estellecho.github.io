@@ -43,15 +43,20 @@ To predict the final price of each home using 79 explanatory variables describin
 
 <br>
 
-### 3. Methodology
+### 3. Approach
 
 ![](https://img.shields.io/badge/Using-Python-blue)
-![](https://img.shields.io/badge/-LASSO-red)
-![](https://img.shields.io/badge/-XGBoost-success)
+![](https://img.shields.io/badge/-Data%20Cleaning-orange)
+![](https://img.shields.io/badge/-Feature%20Engineering-green)
+![](https://img.shields.io/badge/-Feature%20Selection-purple)
+![](https://img.shields.io/badge/-Modeling%20Exploration-red)
+![](https://img.shields.io/badge/-Financial%20Analysis-yellow)
 
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
+  + Data Cleaning: Exclusions, Outliers, Field Imputation
+  + Feature Engineering: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
+  + Feature Selection: Filer, Wrapper
+  + Model Exploration: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model comes with its own set of hyperparameters that were adjusted to explore various configurations and assess performance. 
+  + Financial Analysis: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
 
 <br>
 
