@@ -17,10 +17,10 @@ navbar:
         href: stat2.html
       - text: "New York City’s Property Valuation Analysis"
         href: stat3.html
-    - text: "Dashboard"
+    - text: "Studies"
       menu: 
-      - text: "Squid Game Elimination Analysis"
-        href: visualization1.html
+      - text: "Studies"
+        href: stat4.html
   right:
     - icon: fas fa-envelope
       href: contact.html
