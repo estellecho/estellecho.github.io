@@ -8,7 +8,7 @@ navbar:
   title: "Estelle Cho"
   left:
     - text: "About"
-      href: About.html
+      href: stat0.html
     - text: "Projects"
       menu: 
       - text: "Credit Card Transactions Analysis and Fraud Detection"
