@@ -12,9 +12,7 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
-<br><br><br>
-
-## **Credit Card Transactions Analysis and Fraud Detection**
+## **[Credit Card Transactions Analysis and Fraud Detection]**
 
 ![](https://img.shields.io/badge/Using-Python-blue)
 ![](https://img.shields.io/badge/-LASSO-red)
@@ -25,7 +23,7 @@ output:
 ### **1. Overview**
 
 <p align="center">
-<img src="images/credit card transactions.jpg" style="width:100%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/p1.credit card.jpeg" style="width:100%; border:0px solid; margin-right: 20px" align="center">
 </p>
 <p align="center">
 
