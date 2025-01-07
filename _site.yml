@@ -16,7 +16,7 @@ navbar:
       - text: "Spotify Streaming Analysis and Marketing Investment Strategy"
         href: stat2.html
       - text: "New York City’s Property Valuation Analysis"
-        href: stat3.htmls
+        href: stat3.html
     - text: "Dashboard"
       menu: 
       - text: "Squid Game Elimination Analysis"

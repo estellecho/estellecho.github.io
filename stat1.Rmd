@@ -20,13 +20,9 @@ output:
 ![](https://img.shields.io/badge/-LASSO-red)
 ![](https://img.shields.io/badge/-XGBoost-success)
 
-<br>
-
-🚨**THIS IS A FICTIONAL PROJECT MEANT AS AN EXAMPLE FOR THE STEPBYSTAT COMMUNITY.**
-
 <br><br><br>
 
-### 1. Figure
+### 1. Overview
 
 <p align="center">
 <img src="images/ex2.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
@@ -40,12 +36,12 @@ output:
 
 <br><br>
 
-### 2. Goal
+### 2. Key Findings
 To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
 
 <br>
 
-### 3. Methodology & Summary
+### 3. Methodology
 
   + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
   + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
@@ -55,8 +51,13 @@ To predict the final price of each home using 79 explanatory variables describin
 
 ### 4. Code
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report and code.
+Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the code.
 
 <br>
 
+### 5. Report
+
+Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report.
+
+<br>
 
