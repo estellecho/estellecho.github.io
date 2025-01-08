@@ -84,13 +84,9 @@ This project uncovered several key insights and patterns that provide a deeper u
 <br>
 **2) Data Cleaning**: Exclusions, Outliers, Field Imputation
 <br>
-**3) Feature Engineering**: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
+**3) Feature Engineering**: Variable Creation (Preprocessing, Creating Entities)
 <br>
-**4) Feature Selection**: Filer, Wrapper
-<br>
-**5) Model Exploration**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
-<br>
-**6) Financial Analysis**: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
+**4) Anomaly Detection**: Z-Score Outliers, Autoencoder
 
 <br>
 
