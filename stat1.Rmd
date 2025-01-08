@@ -26,7 +26,7 @@ output:
 
 ### 1. Overview
 
-As the online world continues to expand, the volume of financial transactions has grown significantly. Credit card transactions, in particular, serve as a rich source of **consumer-driven data**, offering insights into **spending behaviors** and uncovering valuable metrics that reveal **patterns and trends in financial products**.
+As the online world continues to expand, the volume of **financial online transactions** has grown significantly. Credit card transactions, in particular, serve as a rich source of **consumer-driven data**, offering insights into **spending behaviors** and uncovering valuable metrics that reveal **patterns and trends in financial products**.
 
 The primary objectives of this project are:
 
