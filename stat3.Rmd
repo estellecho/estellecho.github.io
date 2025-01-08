@@ -94,8 +94,6 @@ This project uncovered several key insights and patterns that provide a deeper u
 **1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb).
 <br>
 **2) Data Cleaning, 3) Feature Engineering, 4) Anomaly Detection**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb)
-<br>
-**5) Original Dataset**: Please click [HERE](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data)
 
 <br>
 
