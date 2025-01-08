@@ -27,7 +27,7 @@ output:
 
 ### 1. Overview
 
-This dataset([HERE](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data)) contains New York City's Property Valuation and Assessment Data provided by the Department of Finance (DOF). It includes approximately 1 million property records across 32 fields, combining categorical and numerical variables, with some missing values. Each record represents a unique property in the city’s five boroughs, providing information such as address, owner details, property characteristics, and assessed tax values.
+The objective of this project is to analyze property valuation components and their interactions to uncover patterns, understand influencing factors, and investigate potential property tax fraud. The analysis is based on the New York City Property Valuation and Assessment [Dataset](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data), provided by the Department of Finance (DOF). This dataset includes approximately 1 million property records, combining categorical and numerical variables. Each record represents a unique property across the city’s five boroughs, offering details such as ownership information, address, market value, assessed tax value, and physical characteristics (e.g., width, depth, number of stories).
 
 <br>
 
