@@ -17,10 +17,12 @@ navbar:
         href: stat2.html
       - text: "New York City’s Property Valuation Analysis"
         href: stat3.html
-    - text: "Studies"
+    - text: "SQL Cases"
       menu: 
-      - text: "Studies"
+      - text: "SQL Case 1"
         href: stat4.html
+      - text: "SQL Case 2"
+        href: stat5.html
   right:
     - icon: fas fa-envelope
       href: contact.html
