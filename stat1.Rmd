@@ -79,15 +79,17 @@ This project uncovered several key insights and patterns that provide a deeper u
 ![](https://img.shields.io/badge/-Modeling-red)
 ![](https://img.shields.io/badge/-Financial%20Analysis-yellow)
 
-**1) Data Cleaning**: Exclusions, Outliers, Field Imputation
+**1) Data Quality Report**: Data Quality Check, Statistical Analysis, Visualization
 <br>
-**2) Feature Engineering**: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
+**2) Data Cleaning**: Exclusions, Outliers, Field Imputation
 <br>
-**3) Feature Selection**: Filer, Wrapper
+**3) Feature Engineering**: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
 <br>
-**4) Model Exploration**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
+**4) Feature Selection**: Filer, Wrapper
 <br>
-**5) Financial Analysis**: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
+**5) Model Exploration**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
+<br>
+**6) Financial Analysis**: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
 
 <br>
 
