@@ -27,7 +27,7 @@ output:
 
 ### 1. Overview
 
-The objective of this project is to analyze property valuation components and their interactions to uncover patterns, understand influencing factors, and investigate potential property tax fraud. The analysis is based on the New York City Property Valuation and Assessment [Dataset](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data), provided by the Department of Finance (DOF). This dataset includes approximately 1 million property records, combining categorical and numerical variables. Each record represents a unique property across the city’s five boroughs, offering details such as ownership information, address, market value, assessed tax value, and physical characteristics (e.g., width, depth, number of stories).
+The objective of this project is to **analyze property valuation components and their interactions to uncover patterns, understand influencing factors, and investigate potential property tax fraud**. The analysis is based on the New York City Property Valuation and Assessment [Dataset](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data), provided by the Department of Finance (DOF). This dataset includes approximately 1 million property records, combining categorical and numerical variables. Each record represents a unique property across the city’s five boroughs, offering details such as ownership information, address, market value, assessed tax value, and physical characteristics (e.g., width, depth, number of stories).
 
 <br>
 
@@ -55,9 +55,9 @@ The objective of this project is to analyze property valuation components and th
 
 ### 4. Code
 
-**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb).
+**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb) for the code.
 <br>
-**2) Data Cleaning, 3) Feature Engineering, 4) Anomaly Detection**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb)
+**2) Data Cleaning, 3) Feature Engineering, 4) Anomaly Detection**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb) for the code.
 
 <br>
 

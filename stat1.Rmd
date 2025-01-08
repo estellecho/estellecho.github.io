@@ -97,13 +97,13 @@ This project uncovered several key insights and patterns that provide a deeper u
 
 ### 4. Code
 
-**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/1.%20Data%20Quality%20Report.ipynb).
+**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/1.%20Data%20Quality%20Report.ipynb) for the code.
 <br>
-**2) Data Cleaning, 3) Feature Engineering**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/2.%20Data%20Cleaning%2C%203.%20Feature%20Engineering.ipynb)
+**2) Data Cleaning, 3) Feature Engineering**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/2.%20Data%20Cleaning%2C%203.%20Feature%20Engineering.ipynb) for the code.
 <br>
-**4) Feature Selection**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/4.%20Feature%20Selection.ipynb)
+**4) Feature Selection**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/4.%20Feature%20Selection.ipynb) for the code.
 <br>
-**5) Model Exploration, 6) Financial Analysis**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/5.%20Model%20Exploration%2C%206.%20Financial%20Analysis.ipynb)
+**5) Model Exploration, 6) Financial Analysis**: Please click [HERE](https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/5.%20Model%20Exploration%2C%206.%20Financial%20Analysis.ipynb) for the code.
 
 <br>
 
