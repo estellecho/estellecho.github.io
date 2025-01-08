@@ -12,49 +12,99 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
-<br><br><br>
+<div style="text-align: center; font-size: 2em;">
+  **[New York City’s Property Valuation Analysis]**
+</div>
 
-## **New York City’s Property Valuation Analysis**
+
+<br>
+
+<p align="center">
+<img src="images/p1_credit card.jpeg" style="width:100%; border:0px solid; margin-right: 20px" align=center>
+</p>
+<p align="center">
+
+### 1. Overview
+
+As the online world continues to expand, the volume of **financial online transactions** has grown significantly. Credit card transactions, in particular, serve as a rich source of **consumer-driven data**, offering insights into **spending behaviors** and uncovering valuable metrics that reveal **patterns and trends in financial products**.
+
+The primary objectives of this project are:
+
+  + **To understand financial transaction trends through statistical analysis and data visualization**
+  + **To build a machine learning model that accurately detects fraudulent activities**
+
+The dataset originates from a U.S. government organization in Tennessee, covering real credit card transactions from January to December 2010. It includes 97,852 records with 2,000 manually generated fraud cases for analysis. The variables include transaction amounts, dates, merchant details, cardholder IDs, and fraud labels.
+
+<br>
+
+### 2. Key Findings
+
+This project uncovered several key insights and patterns that provide a deeper understanding of credit card transactions and fraud detection processes. (Specific explanations and details can be found in the 5. Report below.)
+
+**1) Characteristics of the Dataset**
+
+  +  The dataset included variables such as date, merchant number, merchant description, merchant state, merchant zip code, transaction type, record number, and card number.
+  + Interactive relationships between variables (e.g., Merchant Number, Merchant State, and Merchant Zip Code) were leveraged to address missing values.
+
+**2) Transaction Amount Analysis**
+
+  + Most transaction amounts were relatively small, with a small proportion of extreme outliers representing significantly larger amounts. These extreme outliers (top 1% of the distribution) were removed to prevent distortion in visualizations and analyses. 
+  + This highlights the importance of addressing outliers in financial data to maintain robust and reliable analyses.
+  
+**3) Temporal Trends**
+
+  + February: Higher transaction volumes, likely driven by tax refunds, performance bonuses, and post-holiday sales.
+  + July–August: Increased activity, possibly attributed to summer vacations and holiday spending.
+  + October: A stabilization of transaction volumes corresponding to the start of the U.S. government fiscal year.
+  + November–December: Significant spikes, reflecting year-end holiday shopping and festivities.
+
+**4) Machine Learning Exploration**
+
+  + Multiple machine learning models were evaluated, including Logistic Regression, Decision Trees, Random Forests, LightGBM, CatBoost, and Neural Networks.
+  + After extensive hyperparameter tuning and performance evaluation, the CatBoost model was selected as the optimal choice due to its balanced performance across training, testing, and out-of-time (OOT) datasets.
+  
+**5) Financial Impact**
+
+  + Financial analysis of the CatBoost model's predictions revealed that at a 6% cutoff, the model achieved a Fraud Detection Rate (FDR) of 60% on OOT data. Projected annual savings were estimated at approximately $47.18 million.
+  + This cutoff struck a balance between maximizing fraud detection and minimizing the costs of investigating false positives, ensuring minimal disruption to legitimate customer transactions.
+
+<br>
+
+### 3. Approach
 
 ![](https://img.shields.io/badge/Using-Python-blue)
-![](https://img.shields.io/badge/-LASSO-red)
-![](https://img.shields.io/badge/-XGBoost-success)
+![](https://img.shields.io/badge/-Data%20Cleaning-orange)
+![](https://img.shields.io/badge/-Feature%20Engineering-green)
+![](https://img.shields.io/badge/-Feature%20Selection-purple)
+![](https://img.shields.io/badge/-Modeling-red)
+![](https://img.shields.io/badge/-Financial%20Analysis-yellow)
 
+**1) Data Quality Report**: Data Quality Check, Statistical Analysis, Visualization
 <br>
-
-<br><br><br>
-
-### 1. Figure
-
-<p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
-</p>
-<p align="center">
-[Fig. LASSO regression features by importance]
-</p>
-
-
+**2) Data Cleaning**: Exclusions, Outliers, Field Imputation
 <br>
-
-<br><br>
-
-### 2. Goal
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
-
+**3) Feature Engineering**: Target Encoding, Variable Creation (Preprocessing, Creating Entities, Bedford’s Law)
 <br>
-
-### 3. Methodology & Summary
-
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
+**4) Feature Selection**: Filer, Wrapper
+<br>
+**5) Model Exploration**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
+<br>
+**6) Financial Analysis**: Fraud Detection Rate (FDR), False Positive Rate (FPR), KS Statistic, Financial Tradeoff Analysis
 
 <br>
 
 ### 4. Code
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report and code.
+**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/Project-1-Final-/blob/main/1.%20Data%20Quality%20Report.ipynb).
+<br>
+**2) Data Cleaning, 3) Feature Engineering**: Please click [HERE](https://nbviewer.org/github/estellecho/Project-1-Final-/blob/main/2.%20Data%20Cleaning%2C%203.%20Feature%20Engineering.ipynb)
+<br>
+**4) Feature Selection**: Please click [HERE](https://nbviewer.org/github/estellecho/Project-1-Final-/blob/main/4.%20Feature%20Selection.ipynb)
+<br>
+**5) Model Exploration, 6) Financial Analysis**: Please click [HERE](https://nbviewer.org/github/estellecho/Project-1-Final-/blob/main/5.%20Model%20Exploration%2C%206.%20Financial%20Analysis.ipynb)
 
 <br>
 
+### 5. Report
 
+Please click [HERE](files/Credit Card Transactions Analysis and Fraud Detection Report (final).pdf) for the analysis report.
