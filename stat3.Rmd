@@ -27,47 +27,11 @@ output:
 
 ### 1. Overview
 
-As the online world continues to expand, the volume of **financial online transactions** has grown significantly. Credit card transactions, in particular, serve as a rich source of **consumer-driven data**, offering insights into **spending behaviors** and uncovering valuable metrics that reveal **patterns and trends in financial products**.
-
-The primary objectives of this project are:
-
-  + **To understand financial transaction trends through statistical analysis and data visualization**
-  + **To build a machine learning model that accurately detects fraudulent activities**
-
-The dataset originates from a U.S. government organization in Tennessee, covering real credit card transactions from January to December 2010. It includes 97,852 records with 2,000 manually generated fraud cases for analysis. The variables include transaction amounts, dates, merchant details, cardholder IDs, and fraud labels.
+This dataset([HERE](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data)) contains New York City's Property Valuation and Assessment Data provided by the Department of Finance (DOF). It includes approximately 1 million property records across 32 fields, combining categorical and numerical variables, with some missing values. Each record represents a unique property in the city’s five boroughs, providing information such as address, owner details, property characteristics, and assessed tax values.
 
 <br>
 
 ### 2. Key Findings
-
-This project uncovered several key insights and patterns that provide a deeper understanding of credit card transactions and fraud detection processes. (Specific explanations and details can be found in the 5. Report below.)
-
-**1) Characteristics of the Dataset**
-
-  +  The dataset included variables such as date, merchant number, merchant description, merchant state, merchant zip code, transaction type, record number, and card number.
-  + Interactive relationships between variables (e.g., Merchant Number, Merchant State, and Merchant Zip Code) were leveraged to address missing values.
-
-**2) Transaction Amount Analysis**
-
-  + Most transaction amounts were relatively small, with a small proportion of extreme outliers representing significantly larger amounts. These extreme outliers (top 1% of the distribution) were removed to prevent distortion in visualizations and analyses. 
-  + This highlights the importance of addressing outliers in financial data to maintain robust and reliable analyses.
-  
-**3) Temporal Trends**
-
-  + February: Higher transaction volumes, likely driven by tax refunds, performance bonuses, and post-holiday sales.
-  + July–August: Increased activity, possibly attributed to summer vacations and holiday spending.
-  + October: A stabilization of transaction volumes corresponding to the start of the U.S. government fiscal year.
-  + November–December: Significant spikes, reflecting year-end holiday shopping and festivities.
-
-**4) Machine Learning Exploration**
-
-  + Multiple machine learning models were evaluated, including Logistic Regression, Decision Trees, Random Forests, LightGBM, CatBoost, and Neural Networks.
-  + After extensive hyperparameter tuning and performance evaluation, the CatBoost model was selected as the optimal choice due to its balanced performance across training, testing, and out-of-time (OOT) datasets.
-  
-**5) Financial Impact**
-
-  + Financial analysis of the CatBoost model's predictions revealed that at a 6% cutoff, the model achieved a Fraud Detection Rate (FDR) of 60% on OOT data. Projected annual savings were estimated at approximately $47.18 million.
-  + This cutoff struck a balance between maximizing fraud detection and minimizing the costs of investigating false positives, ensuring minimal disruption to legitimate customer transactions.
 
 <br>
 
