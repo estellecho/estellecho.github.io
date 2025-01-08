@@ -33,6 +33,13 @@ The objective of this project is to **analyze property valuation components and 
 
 ### 2. Key Findings
 
+This project uncovered several key insights and patterns that provide a deeper understanding of property valuations and anomaly detection processes. (Specific explanations and details can be found in the 5. Report below.)
+
+**1) Characteristics of the Dataset**
+
+  +  Interactive relationships between variables were leveraged to effectively address missing values. 
+  + For instance, Market Value (FULLVAL), Actual Land Value (AVLAND), and Actual Total Value (AVTOT) were filled using a step-by-step approach. The process started with grouping by Tax Class, Borough, and Building Class to calculate average values, followed by broader groupings using Tax Class and Borough, and finally Tax Class alone.
+  
 <br>
 
 ### 3. Approach
