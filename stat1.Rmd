@@ -89,7 +89,7 @@ This project uncovered several key insights and patterns that provide a deeper u
 
 ### 4. Code
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the code.
+Please click [HERE](https://github.com/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/tree/main) for the code.
 
 <br>
 
