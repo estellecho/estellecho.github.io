@@ -76,7 +76,7 @@ This project uncovered several key insights and patterns that provide a deeper u
 ![](https://img.shields.io/badge/Using-Python-blue)
 ![](https://img.shields.io/badge/-Data%20Quality%20Check-lightgrey)
 ![](https://img.shields.io/badge/-Data%20Cleaning-yellow)
-![](https://img.shields.io/badge/-Feature%20Engineering-gree)
+![](https://img.shields.io/badge/-Feature%20Engineering-green)
 ![](https://img.shields.io/badge/-Feature%20Selection-orange)
 ![](https://img.shields.io/badge/-Modeling-red)
 ![](https://img.shields.io/badge/-Financial%20Analysis-purple)
