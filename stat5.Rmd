@@ -24,3 +24,9 @@ output:
 </p>
 <p align="center">
 <br>
+
+### 1. Case Statement
+
+### 2. Queries
+
+### 3. Dashboards
