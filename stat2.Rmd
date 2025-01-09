@@ -46,11 +46,11 @@ output:
 
 **1) Data Quality Report**: Data Quality Check, Statistical Analysis, Visualization
 <br>
-**2) Feature Importance Analysis**: d
+**2) Feature Importance Analysis**: Random Forest, SHAP Analysis
 <br>
 **3) Modeling**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
 <br>
-**4) Marketing Investment Analysis**: Z-Score Outliers, Autoencoder
+**4) Marketing Investment Analysis**: Payoff-Optimized Classification (Cost-Sensitive, Profit Maximization, Threshold Optimization)
 
 <br>
 
