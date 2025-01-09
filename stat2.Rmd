@@ -62,4 +62,4 @@ Please click [HERE](https://nbviewer.org/github/estellecho/Spotify-Streaming-Ana
 
 ### 5. Report
 
-Please click [HERE](files/New York City’s Property Valuation Analysis Report.pdf) for the analysis report.
+Please click [HERE](files/Spotify Streaming Analysis and Marketing Investment Strategy Report.pdf) for the analysis report.
