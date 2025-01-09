@@ -26,6 +26,12 @@ output:
 
 ### 1. Overview
 
+**Music streaming platforms are among the best sources of consumer-driven data**, offering detailed insights into user preferences, listening behaviors, and evolving trends. Platforms like Spotify capture a wide range of metrics, including song popularity, genre preferences, streaming frequency, and listener demographics, making them invaluable for understanding what drives engagement and success in the music industry. By analyzing this data, **companies can develop tailored marketing strategies, optimize playlists, and predict future hits**, ensuring they remain competitive in a rapidly evolving market.
+
+The goal of this project is to explore **how music trends have evolved over time and identify the key factors that contribute to a song's success** in the current market. Additionally, based on the Case Description provided in the Appendix (see Section 5 in the report), the project builds **a predictive model to identify potential hit songs** and **uses the findings to enhance promotional strategies**. These strategies aim to maximize profitability while minimizing risks associated with promotional investments.
+
+The dataset, Spotify 1, comprises 26,266 entries of historical songs, including both popular and less popular tracks, released before March 2020, offering valuable insights into long-term trends in the music industry.
+
 <br>
 
 ### 2. Key Findings
