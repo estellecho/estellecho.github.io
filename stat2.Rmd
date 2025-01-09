@@ -35,7 +35,7 @@ The dataset, Spotify 1, comprises 26,266 entries of historical songs, including 
 <br>
 
 ### 2. Key Findings
-This project identified significant trends in the music landscape and xxx processes. (Specific explanations and visualizations can be found in the 5. Report below.)
+This project identified significant trends in the music landscape, key factors influencing hit songs, and strategies for optimizing marketing investments. (Detailed explanations and visualizations are provided in Section 5 of the report below.)
 
 **1) Industry Trends**
 
@@ -45,8 +45,9 @@ This project identified significant trends in the music landscape and xxx proces
   +  Key release months—January, June, and November— were identified as critical periods for maximizing exposure, coinciding with promotional cycles and seasonal engagement. 
   + External factors, such as artist fame, viral trends on platforms like TikTok and Instagram, and collaborations with well-known artists, also play a significant role in boosting song visibility and success. 
 
-**2) xx**
-  
+**2) Factors **
+  +  Genres such as pop, Latin, and R&B dominate, with Latin music experiencing remarkable growth in recent years, even surpassing rap and pop in some instances. 
+
 <br>
 
 ### 3. Approach
