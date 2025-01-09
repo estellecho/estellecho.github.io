@@ -26,7 +26,7 @@ output:
 
 ### 1. Overview
 
-**Music streaming platforms are among the best sources of consumer-driven data**, offering detailed insights into user preferences, listening behaviors, and evolving trends. Platforms like Spotify capture a wide range of metrics, including song popularity, genre preferences, streaming frequency, and listener demographics, making them invaluable for understanding what drives engagement and success in the music industry. By analyzing this data, **companies can develop tailored marketing strategies, optimize playlists, and predict future hits**, ensuring they remain competitive in a rapidly evolving market.
+**Music streaming platforms are among the best sources of consumer-driven data**, offering detailed insights into user preferences, listening behaviors, and evolving trends. Platforms like Spotify capture a wide range of metrics, including song popularity, a song’s key, genre, tempo, mood, energy, and danceability, making them invaluable for understanding what drives engagement and success in the music industry. By analyzing this data, **companies can develop tailored marketing strategies, optimize playlists, and predict future hits**, ensuring they remain competitive in a rapidly evolving market.
 
 The goal of this project is to explore **how music trends have evolved over time and identify the key factors that contribute to a song's success** in the current market. Additionally, based on the Case Description provided in the Appendix (see Section 5 in the report), the project builds **a predictive model to identify potential hit songs** and **uses the findings to enhance promotional strategies**. These strategies aim to maximize profitability while minimizing risks associated with promotional investments.
 
@@ -35,9 +35,16 @@ The dataset, Spotify 1, comprises 26,266 entries of historical songs, including 
 <br>
 
 ### 2. Key Findings
+This project identified significant trends in the music landscape and xxx processes. (Specific explanations and visualizations can be found in the 5. Report below.)
 
-**1) xx**
-  
+**1) Industry Trends**
+
+  +  Genres such as pop, Latin, and R&B dominate, with Latin music experiencing remarkable growth in recent years, even surpassing rap and pop in some instances. 
+  +  Popular songs share distinctive characteristics, including high danceability, energy, and frequent use of major keys like Db/C#, C, and G, which evoke positive and uplifting emotions.
+  +  Most successful tracks are studio-produced, feature prominent vocals, and align with modern listening habits, with an average duration of approximately 3:20 minutes. 
+  +  Key release months—January, June, and November— were identified as critical periods for maximizing exposure, coinciding with promotional cycles and seasonal engagement. 
+  + External factors, such as artist fame, viral trends on platforms like TikTok and Instagram, and collaborations with well-known artists, also play a significant role in boosting song visibility and success. 
+
 **2) xx**
   
 <br>
