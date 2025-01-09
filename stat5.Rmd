@@ -13,7 +13,7 @@ output:
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 <div style="text-align: center; font-size: 2em;">
-  **[SQL Case #2: Northwind Traders Company]**
+  **[SQL Case #2 : Northwind Traders Company]**
 </div>
 
 
