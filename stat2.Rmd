@@ -47,12 +47,12 @@ This project identified significant trends in the music landscape, key factors i
 
 **2) Factors **
 
-  +  This analysis shows that the musical characteristics (instrumentalness, loudness, energy, etc.) and genre are the key drivers of popularity, while more technical features like tempo, speechiness, liveness, key, and mode have less or no influence.
+  +  This analysis shows that the **musical characteristics (instrumentalness, loudness, energy, etc.) and genre are the key drivers of popularity**, while more technical features like tempo, speechiness, liveness, key, and mode have less or no influence.
 
 **3) Marketing Investment Strategy**
 
-  +  As described in the Case Description in the Appendix (in 5. Report below), the predictive model generated an annual expected payoff of $155,480,000 at a cutoff of 0.22 on testing data.
-  + To account for a 20% probability that initially unpopular songs might later gain popularity, an adjustment was made. This increased the expected payoff to $290,304,000 at a cutoff of 0.10, representing an improvement of $135,250,000.
+  +  As described in the Case Description in the Appendix (in 5. Report below), the predictive model generated an annual **expected payoff of $155,480,000** at a cutoff of 0.22 on testing data.
+  + To account for a 20% probability that initially unpopular songs might later gain popularity, an adjustment was made. This increased the **expected payoff to $290,304,000** at a cutoff of 0.10, representing an **improvement of $135,250,000**.
   + This refinement offers a more optimistic forecast by acknowledging delayed success potential and reducing the risk of misclassifying songs as unpopular.
 
 <br>
