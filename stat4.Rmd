@@ -13,7 +13,7 @@ output:
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 <div style="text-align: center; font-size: 2em;">
-  **[SQL Case #1: Entertainment Agency Database]**
+  **[SQL Case #1 : Entertainment Agency Database]**
 </div>
 
 
@@ -24,3 +24,10 @@ output:
 </p>
 <p align="center">
 <br>
+
+### 1. Case Statement
+
+### 2. Queries
+
+
+### 3. Dashboards
