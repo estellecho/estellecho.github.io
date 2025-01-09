@@ -56,7 +56,7 @@ output:
 
 ### 4. Code
 
-Please click [HERE](https://nbviewer.org/github/estellecho/Spotify-Streaming-Analysis-and-Marketing-Investment-Strategy/blob/main/%28P2%29%20Spotify%20Streaming%20Analysis%20and%20Marketing%20Investment%20Strategy.ipynb) for the code.
+Please click [HERE](https://nbviewer.org/github/estellecho/Spotify-Streaming-Analysis-and-Marketing-Investment-Strategy/blob/main/Spotify%20Streaming%20Analysis%20and%20Marketing%20Investment%20Strategy.ipynb) for the code.
 
 <br>
 
