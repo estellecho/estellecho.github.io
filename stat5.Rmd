@@ -27,6 +27,11 @@ output:
 
 ### 1. Case Statement
 
+<p align="center">
+<img src="images/SQL Case 2 ERD.png" style="width:60%; border:0px solid; margin-right: 20px" align=center>
+</p>
+<p align="center">
+
 <br>
 
 ### 2. Queries
