@@ -27,6 +27,18 @@ output:
 
 ### 1. Case Statement
 
+<br>
+
 ### 2. Queries
+
+  +  Please click [HERE](https://www.kaggle.com/datasets/cleveranjosqlik/csv-northwind-database) for the original dataset.
+  +  Please click [HERE]() for the queries link.
+  + xx
+<p align="center">
+<img src="images/SQL Case 2.png" style="width:50%; border:0px solid; margin-right: 20px" align=center>
+</p>
+<p align="center">
+
+<br>
 
 ### 3. Dashboards
