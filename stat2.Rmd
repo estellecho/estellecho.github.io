@@ -40,17 +40,17 @@ output:
 
 ![](https://img.shields.io/badge/Using-Python-blue)
 ![](https://img.shields.io/badge/-Data%20Quality%20Check-lightgrey)
-![](https://img.shields.io/badge/-Data%20Cleaning-yellow)
-![](https://img.shields.io/badge/-Feature%20Engineering-green)
-![](https://img.shields.io/badge/-Anomaly%20Detection-red)
+![](https://img.shields.io/badge/-Feature%20Importance%20Analysis-limegreen)
+![](https://img.shields.io/badge/-Modeling-red)
+![](https://img.shields.io/badge/-Marketing%20Investment%20Analysis-darkred)
 
 **1) Data Quality Report**: Data Quality Check, Statistical Analysis, Visualization
 <br>
-**2) Data Cleaning**: Exclusions, Outliers, Field Imputation
+**2) Feature Importance Analysis**: d
 <br>
-**3) Feature Engineering**: Variable Creation (Preprocessing, Creating Entities)
+**3) Modeling**: Logistic Regression, Decision Tree, Random Forest, LightGBM, CatBoost, and Neural Network. Each model, with its unique set of hyperparameters, was rigorously experimented to optimize performance and achieve balanced metrics.
 <br>
-**4) Anomaly Detection**: Z-Score Outliers, Autoencoder
+**4) Marketing Investment Analysis**: Z-Score Outliers, Autoencoder
 
 <br>
 
