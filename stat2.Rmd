@@ -12,49 +12,67 @@ output:
 <link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
-<br><br><br>
+<div style="text-align: center; font-size: 2em;">
+  **[Spotify Streaming Analysis and Marketing Investment Strategy]**
+</div>
 
-## **Spotify Streaming Analysis and Marketing Investment Strategy**
+
+<br>
+
+<p align="center">
+<img src="images/spotify.jpg" style="width:100%; border:0px solid; margin-right: 20px" align=center>
+</p>
+<p align="center">
+<br>
+
+### 1. Overview
+
+The objective of this project is to **analyze property valuation components and their interactions to uncover patterns, understand influencing factors, and investigate potential property tax fraud**. The analysis is based on the New York City Property Valuation and Assessment [Dataset](https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data), provided by the Department of Finance (DOF). This dataset includes approximately 1 million property records, combining categorical and numerical variables. Each record represents a unique property across the city’s five boroughs, offering details such as ownership information, address, market value, assessed tax value, and physical characteristics (e.g., width, depth, number of stories).
+
+<br>
+
+### 2. Key Findings
+
+This project uncovered several key insights and patterns that provide a deeper understanding of property valuations and anomaly detection processes. (Specific explanations and details can be found in the 5. Report below.)
+
+**1) Characteristics of the Dataset**
+
+  +  Interactive relationships between variables were leveraged to effectively address missing values. 
+  + For instance, Market Value (FULLVAL), Actual Land Value (AVLAND), and Actual Total Value (AVTOT) were filled using a step-by-step approach. The process started with grouping by Tax Class, Borough, and Building Class to calculate average values, followed by broader groupings using Tax Class and Borough, and finally Tax Class alone.
+  
+**2) Anomaly Detection**
+
+  +  Using advanced analytics techniques, potential anomalies have been identified and assigned fraud scores. Each case requires detailed exploration, with the highest-ranking records analyzed through [visual1](files/(P3) Highest ranking fraud owner.png), [visual2](files/(P3) Heatmap.png) and the [Excel](files/(Project 3) NY_top_lotsize_ne_0.xlsx) file output.
+  + For example, LOGAN PROPERTY, INC. (917942) exhibits anomalies in building metrics, with building width and depth recorded as 0, leading to a calculated building volume of 0 despite having 3 stories. Additionally, the market value ($374M) is illogically lower than both the land value ($1.79B) and total value ($4.67B), suggesting potential intentional underreporting to minimize tax liabilities.
+  
+<br>
+
+### 3. Approach
 
 ![](https://img.shields.io/badge/Using-Python-blue)
-![](https://img.shields.io/badge/-LASSO-red)
-![](https://img.shields.io/badge/-XGBoost-success)
+![](https://img.shields.io/badge/-Data%20Quality%20Check-lightgrey)
+![](https://img.shields.io/badge/-Data%20Cleaning-yellow)
+![](https://img.shields.io/badge/-Feature%20Engineering-green)
+![](https://img.shields.io/badge/-Anomaly%20Detection-red)
 
+**1) Data Quality Report**: Data Quality Check, Statistical Analysis, Visualization
 <br>
-
-<br><br><br>
-
-### 1. Figure
-
-<p align="center">
-<img src="images/predict_houseprice.png" style="width:80%; border:0px solid; margin-right: 20px" align="center">
-</p>
-<p align="center">
-[Fig. LASSO regression features by importance]
-</p>
-
-
+**2) Data Cleaning**: Exclusions, Outliers, Field Imputation
 <br>
-
-<br><br>
-
-### 2. Goal
-To predict the final price of each home using 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa.
-
+**3) Feature Engineering**: Variable Creation (Preprocessing, Creating Entities)
 <br>
-
-### 3. Methodology & Summary
-
-  + LASSO regressions showed the best performance with a cross validation RMSE-score of 0.1121. Although there is a lot of multicollinearity among the variables, LASSO regression include feature selection; it does not select a substantial number of the available variables in its model, as it is supposed to do.
-  + The XGBoost model also performs very well with a cross validation RMSE of 0.1162.
-  + As those two algorithms are very different, averaging predictions is likely to improve the predictions. As the Lasso cross validated RMSE is better than XGBoost's CV score, I decided to weight the Lasso results double.
+**4) Anomaly Detection**: Z-Score Outliers, Autoencoder
 
 <br>
 
 ### 4. Code
 
-Please click [HERE](https://www.kaggle.com/erikbruin/house-prices-lasso-xgboost-and-a-detailed-eda/report) for the analysis report and code.
+**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb) for the code.
+<br>
+**2) Data Cleaning, 3) Feature Engineering, 4) Anomaly Detection**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb) for the code.
 
 <br>
 
+### 5. Report
 
+Please click [HERE](files/New York City’s Property Valuation Analysis Report.pdf) for the analysis report.
