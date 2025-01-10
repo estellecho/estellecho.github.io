@@ -27,10 +27,22 @@ output:
 
 ### 1. Case Statement
 
+**1) Background**
+
+  +  Vision Entertainment Agency (VEA) is a premier agency managing entertainers, agents, customers, and bookings across diverse regions. The database is crucial for tracking engagements, customer preferences, and entertainer styles while ensuring seamless coordination between agents and clients. As Chief Data Scientist, I have been tasked by the CEO to address key operational questions to support the agency's strategic objectives.
+<br>
+
 <p align="center">
-<img src="images/SQL Case 1 ERD.png" style="width:100%; border:0px solid; margin-right: 20px" align=center>
+<img src="images/SQL Case 1 ERD.png" style="width:80%; border:0px solid; margin-right: 20px" align=center>
 </p>
 <p align="center">
+
+**2) Objective**
+
+  +  **Entertainer Details**: Identify entertainers meeting specific criteria to improve communication and outreach.
+  +  **Engagement Analysis**: Analyze engagement durations and trends to optimize booking strategies.
+  +  **Customer Engagements**: Identify key entertainers contributing to strong customer relationships.
+  +  **Unbooked or Incomplete Profiles**: Detect unbooked entertainers or incomplete profiles to ensure accuracy and efficiency.
 
 <br>
 
