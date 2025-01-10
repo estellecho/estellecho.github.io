@@ -50,7 +50,7 @@ output:
 
 **1) Case Questions**
 
-  + List entertainers who have either never been booked or do not have a webpage or email address. Sort by entertainer ID in ascending order.
+  + Show a list of entertainers based in ‘Bellevue,’ ‘Redmond,’ or ‘Woodinville’ who do not have a registered email address. Include their stage name, phone number, and city.
   + List entertainers who have either never been booked or do not have a webpage or email address. Sort by entertainer ID in ascending order.
   + List entertainers who specialize in a specific musical style (e.g., Jazz or Pop) but have not performed any engagements in the past two years. Include their stage name, musical style, and last engagement date.
   + Identify entertainers who are managed by more than one agent. Provide their stage name, agent names, and contact details.
