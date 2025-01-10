@@ -13,7 +13,7 @@ output:
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 <div style="text-align: center; font-size: 2em;">
-  **[SQL Case #1 : Entertainment Agency Database]**
+  **[SQL Case #1 : Vision Entertainment Agency]**
 </div>
 
 
