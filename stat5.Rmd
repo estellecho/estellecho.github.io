@@ -27,10 +27,24 @@ output:
 
 ### 1. Case Statement
 
+**1) Background**
+
+  +  xx
+<br>
+
 <p align="center">
-<img src="images/SQL Case 2 ERD.png" style="width:90%; border:0px solid; margin-right: 20px" align=center>
+<img src="images/SQL Case 2 ERD.png" style="width:80%; border:0px solid; margin-right: 20px" align=center>
 </p>
 <p align="center">
+
+**2) Objective**
+
+  +  **xx**: Identify entertainers meeting specific criteria to improve communication and outreach.
+  +  **xx**: Analyze engagement durations and trends to optimize booking strategies.
+  +  **Customer Engagements**: Identify key entertainers contributing to strong customer relationships.
+  +  **Unbooked or Incomplete Profiles**: Detect unbooked entertainers or incomplete profiles to ensure accuracy and efficiency.
+
+<br>
 
 <br>
 
