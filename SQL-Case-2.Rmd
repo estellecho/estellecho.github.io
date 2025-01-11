@@ -65,6 +65,9 @@ output:
 
 ### 3. Queries
 
+![](https://img.shields.io/badge/Using-PostgreSQL-teal)
+![](https://img.shields.io/badge/-SQL-gold)
+
   +  Please click [HERE](https://www.kaggle.com/datasets/cleveranjosqlik/csv-northwind-database) for the original dataset.
   +  Please click [HERE](https://github.com/estellecho/SQL-Case-2-Northwind-Traders-Company/blob/main/SQL%20Case%20%232_Northwind%20Traders%20Company.sql) for the queries link.
   
@@ -79,5 +82,7 @@ output:
 </p>
 
 ### 4. Dashboards
+
+![](https://img.shields.io/badge/Using-Tableau%20Software-crimson)
 
   +  Please click [HERE]() for the Tableau Dashboard.
