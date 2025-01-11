@@ -63,5 +63,17 @@ output:
 
 ### 3. Queries
 
-  +  Please click [HERE](https://github.com/estellecho/SQL-Case-1-Vision-Entertainment-Agency/blob/main/SQL%20Case%20%231_Vision%20Entertainment%20Agency.sql) for the queries link.
++  Please click [HERE](https://github.com/estellecho/SQL-Case-1-Vision-Entertainment-Agency/blob/main/SQL%20Case%20%231_Vision%20Entertainment%20Agency.sql) for the queries link.
+
+<p align="center">
+<table>
+  <tr>
+    <td><img src="images/SQL 1_2.png" style="width:400px; border:0px solid; margin:5px"></td>
+    <td><img src="images/SQL 1_1.png" style="width:400px; border:0px solid; margin:5px"></td>
+    <td><img src="images/SQL 1_3.png" style="width:400px; border:0px solid; margin:5px"></td>
+  </tr>
+</table>
+</p>
+
+
   
