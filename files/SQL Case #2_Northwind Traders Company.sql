@@ -113,5 +113,29 @@ ORDER BY LateOrders DESC;
 
 ---[5] Product and Inventory Insights
 --10. Identify products requiring reordering based on stock and order thresholds. 
+--Definition: ReorderLevel is the threshold quantity below which the product needs to be reordered.
+--Defintion: UnitsInStock + UnitsOnOrder <= ReorderLevel checks if the total stock (including pending orders) 
+--is less than or equal to the reorder threshold, indicating that the product needs reordering.
+SELECT p.ProductID, p.ProductName, p.UnitsInStock, p.UnitsOnOrder, p.ReorderLevel
+FROM Products p
+WHERE p.UnitsInStock + p.UnitsOnOrder <= p.ReorderLevel
+ORDER BY p.ReorderLevel DESC;
+
 --11. Produce a report for products with prices above the average but units in stock below average.
+WITH AverageValues AS (
+    SELECT AVG(p.UnitPrice) AS AvgPrice, AVG(p.UnitsInStock) AS AvgStock
+    FROM Products p)
+SELECT p.ProductID, p.ProductName, p.UnitPrice, p.UnitsInStock
+FROM Products p
+JOIN AverageValues a 
+ON p.UnitPrice > a.AvgPrice AND p.UnitsInStock < a.AvgStock
+ORDER BY p.UnitPrice DESC;
+
 --12. Identify product categories with average total discounts exceeding the overall average discount.
+SELECT c.CategoryID, c.CategoryName, ROUND(AVG(od.Discount)::NUMERIC, 4) AS AvgCategoryDiscount
+FROM Categories c
+JOIN Products p ON c.CategoryID = p.CategoryID
+JOIN OrderDetails od ON p.ProductID = od.ProductID
+GROUP BY c.CategoryID, c.CategoryName
+HAVING AVG(od.Discount) > (SELECT AVG(Discount) FROM OrderDetails)
+ORDER BY AvgCategoryDiscount DESC;
