@@ -12,17 +12,17 @@ navbar:
     - text: "Projects"
       menu: 
       - text: "Credit Card Transactions Analysis and Fraud Detection"
-        href: stat1.html
+        href: Credit Card Transactions Analysis and Fraud Detection.html
       - text: "Spotify Streaming Analysis and Marketing Investment Strategy"
-        href: stat2.html
+        href: Spotify Streaming Analysis and Marketing Investment Strategy.html
       - text: "New York City’s Property Valuation Analysis"
-        href: stat3.html
+        href: New York City’s Property Valuation Analysis.html
     - text: "SQL Cases"
       menu: 
       - text: "SQL Case 1"
-        href: stat4.html
+        href: SQL Case 1.html
       - text: "SQL Case 2"
-        href: stat5.html
+        href: SQL Case 2.html
   right:
     - icon: fas fa-envelope
       href: contact.html

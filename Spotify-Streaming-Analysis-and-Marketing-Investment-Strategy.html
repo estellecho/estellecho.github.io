@@ -11,7 +11,8 @@
 
 
 
-<title>Index</title>
+<title>Spotify Streaming Analysis<br>and Marketing Investment
+Strategy</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +30,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -222,6 +226,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -229,6 +302,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -256,13 +339,13 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="stat1.html">Credit Card Transactions Analysis and Fraud Detection</a>
+      <a href="Credit Card Transactions Analysis and Fraud Detection.html">Credit Card Transactions Analysis and Fraud Detection</a>
     </li>
     <li>
-      <a href="stat2.html">Spotify Streaming Analysis and Marketing Investment Strategy</a>
+      <a href="Spotify Streaming Analysis and Marketing Investment Strategy.html">Spotify Streaming Analysis and Marketing Investment Strategy</a>
     </li>
     <li>
-      <a href="stat3.html">New York City’s Property Valuation Analysis</a>
+      <a href="New York City’s Property Valuation Analysis.html">New York City’s Property Valuation Analysis</a>
     </li>
   </ul>
 </li>
@@ -274,10 +357,10 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="stat4.html">SQL Case 1</a>
+      <a href="SQL Case 1.html">SQL Case 1</a>
     </li>
     <li>
-      <a href="stat5.html">SQL Case 2</a>
+      <a href="SQL Case 2.html">SQL Case 2</a>
     </li>
   </ul>
 </li>
@@ -316,31 +399,121 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
-<!-- <style> -->
-<!--   body { -->
-<!--     font-size: 18px; /* Increase font size for all text */ -->
-<!--     text-align: justify; /* Justify all text in the body */ -->
-<!--   } -->
-<!-- </style> -->
-<!-- <br> -->
+<div style="text-align: center; font-size: 2em;">
+<p><strong>[Spotify Streaming Analysis<br>and Marketing Investment
+Strategy]</strong></p>
+</div>
+<p><br></p>
 <p align="center">
-<img src="images/main%20page%20pic.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
+<img src="images/spotify.png" style="width:100%; border:0px solid; margin-right: 20px" align=center>
 </p>
-<p><br> 🌟 <strong>My journey has been unique</strong>—from English and
-Cultural Content major, working in Music Entertainment and Business
-Consulting, to diving into Data Analytics. Looking back, my passion has
-always been <strong>solving business challenges, analyzing data, and
-turning insights into visuals and reports that help others understand
-the story behind the numbers</strong>.</p>
-<p>📊 As a <strong>Data and Business Analyst</strong>, I analyzed
-product and platform data, managed dashboards, identified key trends,
-and developed data-driven strategies. 💼 As a
-<strong>Consultant</strong>, I focused on business valuation and
-operational improvement by building forecasting models, predictive
-models, and revenue projections.</p>
-<p>🔥 Outside of work, I enjoy exploring nature, playing tennis,
-practicing hot yoga, cooking, making music, and offering life advice to
-friends and colleagues!</p>
+<p align="center">
+<p><br></p>
+<div id="overview" class="section level3">
+<h3>1. Overview</h3>
+<p><strong>Music streaming platforms are among the best sources of
+consumer-driven data</strong>, offering detailed insights into user
+preferences, listening behaviors, and evolving trends. Platforms like
+Spotify capture a wide range of metrics, including song popularity, a
+song’s key, genre, tempo, mood, energy, and danceability, making them
+invaluable for understanding what drives engagement and success in the
+music industry. By analyzing this data, <strong>companies can develop
+tailored marketing strategies, optimize playlists, and predict future
+hits</strong>, ensuring they remain competitive in a rapidly evolving
+market.</p>
+<p>The goal of this project is to explore <strong>how music trends have
+evolved over time and identify the key factors that contribute to a
+song’s success</strong> in the current market. Additionally, based on
+the Case Description provided in the Appendix (see 5. Report below), the
+project builds <strong>a predictive model to identify potential hit
+songs</strong> and <strong>uses the findings to enhance promotional
+strategies</strong>. These strategies aim to maximize profitability
+while minimizing risks associated with promotional investments.</p>
+<p>The dataset, Spotify 1, comprises 26,266 entries of historical songs,
+including both popular and less popular tracks, released before March
+2020, offering valuable insights into long-term trends in the music
+industry.</p>
+<p><br></p>
+</div>
+<div id="key-findings" class="section level3">
+<h3>2. Key Findings</h3>
+<p>This project identified significant trends in the music landscape,
+key factors influencing hit songs, and strategies for optimizing
+marketing investments. (Detailed explanations and visualizations are
+provided in 5. Report below.)</p>
+<p><strong>1) Industry Trends</strong></p>
+<ul>
+<li>Genres such as pop, Latin, and R&amp;B dominate, with Latin music
+experiencing remarkable growth in recent years, even surpassing rap and
+pop in some instances.</li>
+<li>Popular songs share distinctive characteristics, including high
+danceability, energy, and frequent use of major keys like Db/C#, C, and
+G, which evoke positive and uplifting emotions.</li>
+<li>Most successful tracks are studio-produced, feature prominent
+vocals, and align with modern listening habits, with an average duration
+of approximately 3:20 minutes.</li>
+<li>Key release months—January, June, and November— were identified as
+critical periods for maximizing exposure, coinciding with promotional
+cycles and seasonal engagement.</li>
+<li>External factors, such as artist fame, viral trends on platforms
+like TikTok and Instagram, and collaborations with well-known artists,
+also play a significant role in boosting song visibility and
+success.</li>
+</ul>
+<p><strong>2) Factors </strong></p>
+<ul>
+<li>This analysis shows that the <strong>musical characteristics
+(instrumentalness, loudness, energy, etc.) and genre are the key drivers
+of popularity</strong>, while more technical features like tempo,
+speechiness, liveness, key, and mode have less or no influence.</li>
+</ul>
+<p><strong>3) Marketing Investment Strategy</strong></p>
+<ul>
+<li>As described in the Case Description in the Appendix (in 5. Report
+below), the predictive model generated an annual <strong>expected payoff
+of $155,480,000</strong> at a cutoff of 0.22 on testing data.</li>
+<li>To account for a 20% probability that initially unpopular songs
+might later gain popularity, an adjustment was made. This increased the
+<strong>expected payoff to $290,304,000</strong> at a cutoff of 0.10,
+representing an <strong>improvement of $135,250,000</strong>.</li>
+<li>This refinement offers a more optimistic forecast by acknowledging
+delayed success potential and reducing the risk of misclassifying songs
+as unpopular.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="approach" class="section level3">
+<h3>3. Approach</h3>
+<p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
+src="https://img.shields.io/badge/-Data%20Quality%20Check-lightgrey" />
+<img
+src="https://img.shields.io/badge/-Feature%20Importance%20Analysis-limegreen" />
+<img src="https://img.shields.io/badge/-Modeling-red" /> <img
+src="https://img.shields.io/badge/-Marketing%20Investment%20Analysis-darkred" /></p>
+<p><strong>1) Data Quality Report</strong>: Data Quality Check,
+Statistical Analysis, Visualization <br> <strong>2) Feature Importance
+Analysis</strong>: Random Forest, SHAP Analysis <br> <strong>3)
+Modeling</strong>: Logistic Regression, Decision Tree, Random Forest,
+LightGBM, CatBoost, and Neural Network. Each model, with its unique set
+of hyperparameters, was rigorously experimented to optimize performance
+and achieve balanced metrics. <br> <strong>4) Marketing Investment
+Analysis</strong>: Payoff-Optimized Classification (Cost-Sensitive,
+Profit Maximization, Threshold Optimization)</p>
+<p><br></p>
+</div>
+<div id="code" class="section level3">
+<h3>4. Code</h3>
+<p>Please click <a
+href="https://nbviewer.org/github/estellecho/Spotify-Streaming-Analysis-and-Marketing-Investment-Strategy/blob/main/Spotify%20Streaming%20Analysis%20and%20Marketing%20Investment%20Strategy.ipynb">HERE</a>
+for the code.</p>
+<p><br></p>
+</div>
+<div id="report" class="section level3">
+<h3>5. Report</h3>
+<p>Please click <a
+href="files/Spotify%20Streaming%20Analysis%20and%20Marketing%20Investment%20Strategy%20Report.pdf">HERE</a>
+for the analysis report.</p>
+</div>
 
 
 <br><br>
@@ -349,6 +522,8 @@ friends and colleagues!</p>
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -381,6 +556,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

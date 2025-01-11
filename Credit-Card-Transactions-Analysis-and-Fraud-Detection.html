@@ -11,7 +11,7 @@
 
 
 
-<title>SQL Case #2</title>
+<title>Credit Card Transactions Analysis and Fraud Detection</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -399,60 +399,138 @@ div.tocify {
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
 <div style="text-align: center; font-size: 2em;">
-<p><strong>[SQL Case #2 : Northwind Traders Company]</strong></p>
+<p><strong>[Credit Card Transactions Analysis and Fraud
+Detection]</strong></p>
 </div>
 <p><br></p>
 <p align="center">
-<img src="images/SQL%20Case%202.png" style="width:80%; border:0px solid; margin-right: 20px" align=center>
+<img src="images/p1_credit%20card.jpeg" style="width:100%; border:0px solid; margin-right: 20px" align=center>
 </p>
 <p align="center">
 <p><br></p>
-<div id="case-statement" class="section level3">
-<h3>1. Case Statement</h3>
-<p><strong>1) Background</strong></p>
+<div id="overview" class="section level3">
+<h3>1. Overview</h3>
+<p>As the online world continues to expand, the volume of
+<strong>financial online transactions</strong> has grown significantly.
+Credit card transactions, in particular, serve as a rich source of
+<strong>consumer-driven data</strong>, offering insights into
+<strong>spending behaviors</strong> and uncovering valuable metrics that
+reveal <strong>patterns and trends in financial products</strong>.</p>
+<p>The primary objectives of this project are:</p>
 <ul>
-<li>Northwind Traders is a global food import and export company. The
-database is central to its operations, recording all sales transactions
-with customers and purchase transactions with suppliers. As a Data
-Scientist, I am tasked with leveraging this database to address critical
-business questions and provide actionable insights. <br></li>
+<li><strong>To understand financial transaction trends through
+statistical analysis and data visualization</strong></li>
+<li><strong>To build a machine learning model that accurately detects
+fraudulent activities</strong></li>
 </ul>
-<p align="center">
-<img src="images/SQL%20Case%202%20ERD.png" style="width:80%; border:0px solid; margin-right: 20px" align=center>
-</p>
-<p align="center">
-<p><strong>2) Objective</strong></p>
+<p>The dataset originates from a U.S. government organization in
+Tennessee, covering real credit card transactions from January to
+December 2010. It includes 97,852 records with 2,000 manually generated
+fraud cases for analysis. The variables include transaction amounts,
+dates, merchant details, cardholder IDs, and fraud labels.</p>
+<p><br></p>
+</div>
+<div id="key-findings" class="section level3">
+<h3>2. Key Findings</h3>
+<p>This project uncovered several key insights and patterns that provide
+a deeper understanding of credit card transactions and fraud detection
+processes. (Specific explanations and details can be found in the 5.
+Report below.)</p>
+<p><strong>1) Characteristics of the Dataset</strong></p>
 <ul>
-<li><strong>Employee Insights</strong>: Analyze performance, roles, and
-hiring trends to improve order processing efficiency.</li>
-<li><strong>Customer Insights</strong>: Assess behaviors, identify
-high-value clients, and target inactive regions.</li>
-<li><strong>Order and Shipping Analysis</strong>: Optimize logistics by
-examining locations, shipping partners, and freight costs.</li>
-<li><strong>Product and Inventory Management</strong>: Refine strategies
-through stock evaluation, pricing, and reorder priorities.</li>
-<li><strong>General and Advanced Analysis</strong>: Generate reports and
-develop SQL queries for strategic decision-making.</li>
+<li>The dataset included variables such as date, merchant number,
+merchant description, merchant state, merchant zip code, transaction
+type, record number, and card number.</li>
+<li>Interactive relationships between variables (e.g., Merchant Number,
+Merchant State, and Merchant Zip Code) were leveraged to address missing
+values.</li>
+</ul>
+<p><strong>2) Transaction Amount Analysis</strong></p>
+<ul>
+<li>Most transaction amounts were relatively small, with a small
+proportion of extreme outliers representing significantly larger
+amounts. These extreme outliers (top 1% of the distribution) were
+removed to prevent distortion in visualizations and analyses.</li>
+<li>This highlights the importance of addressing outliers in financial
+data to maintain robust and reliable analyses.</li>
+</ul>
+<p><strong>3) Temporal Trends</strong></p>
+<ul>
+<li>February: Higher transaction volumes, likely driven by tax refunds,
+performance bonuses, and post-holiday sales.</li>
+<li>July–August: Increased activity, possibly attributed to summer
+vacations and holiday spending.</li>
+<li>October: A stabilization of transaction volumes corresponding to the
+start of the U.S. government fiscal year.</li>
+<li>November–December: Significant spikes, reflecting year-end holiday
+shopping and festivities.</li>
+</ul>
+<p><strong>4) Machine Learning Exploration</strong></p>
+<ul>
+<li>Multiple machine learning models were evaluated, including Logistic
+Regression, Decision Trees, Random Forests, LightGBM, CatBoost, and
+Neural Networks.</li>
+<li>After extensive hyperparameter tuning and performance evaluation,
+the CatBoost model was selected as the optimal choice due to its
+balanced performance across training, testing, and out-of-time (OOT)
+datasets.</li>
+</ul>
+<p><strong>5) Financial Impact</strong></p>
+<ul>
+<li>Financial analysis of the CatBoost model’s predictions revealed that
+at a 6% cutoff, the model achieved a Fraud Detection Rate (FDR) of 60%
+on OOT data. Projected annual savings were estimated at approximately
+$47.18 million.</li>
+<li>This cutoff struck a balance between maximizing fraud detection and
+minimizing the costs of investigating false positives, ensuring minimal
+disruption to legitimate customer transactions.</li>
 </ul>
 <p><br></p>
 </div>
-<div id="queries" class="section level3">
-<h3>2. Queries</h3>
-<ul>
-<li>Please click <a
-href="https://www.kaggle.com/datasets/cleveranjosqlik/csv-northwind-database">HERE</a>
-for the original dataset.</li>
-<li>Please click <a href="">HERE</a> for the queries link.</li>
-<li>xx
-<p align="center">
-<img src="images/SQL%20Case%202.png" style="width:50%; border:0px solid; margin-right: 20px" align=center></li>
-</ul>
-</p>
-<p align="center">
+<div id="approach" class="section level3">
+<h3>3. Approach</h3>
+<p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
+src="https://img.shields.io/badge/-Data%20Quality%20Check-lightgrey" />
+<img src="https://img.shields.io/badge/-Data%20Cleaning-yellow" /> <img
+src="https://img.shields.io/badge/-Feature%20Engineering-green" /> <img
+src="https://img.shields.io/badge/-Feature%20Selection-orange" /> <img
+src="https://img.shields.io/badge/-Modeling-red" /> <img
+src="https://img.shields.io/badge/-Financial%20Analysis-purple" /></p>
+<p><strong>1) Data Quality Report</strong>: Data Quality Check,
+Statistical Analysis, Visualization <br> <strong>2) Data
+Cleaning</strong>: Exclusions, Outliers, Field Imputation <br>
+<strong>3) Feature Engineering</strong>: Target Encoding, Variable
+Creation (Preprocessing, Creating Entities, Bedford’s Law) <br>
+<strong>4) Feature Selection</strong>: Filer, Wrapper <br> <strong>5)
+Model Exploration</strong>: Logistic Regression, Decision Tree, Random
+Forest, LightGBM, CatBoost, and Neural Network. Each model, with its
+unique set of hyperparameters, was rigorously experimented to optimize
+performance and achieve balanced metrics. <br> <strong>6) Financial
+Analysis</strong>: Fraud Detection Rate (FDR), False Positive Rate
+(FPR), KS Statistic, Financial Tradeoff Analysis</p>
 <p><br></p>
 </div>
-<div id="dashboards" class="section level3">
-<h3>3. Dashboards</h3>
+<div id="code" class="section level3">
+<h3>4. Code</h3>
+<p><strong>1) Data Quality Report</strong>: Please click <a
+href="https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/1.%20Data%20Quality%20Report.ipynb">HERE</a>
+for the code. <br> <strong>2) Data Cleaning, 3) Feature
+Engineering</strong>: Please click <a
+href="https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/2.%20Data%20Cleaning%2C%203.%20Feature%20Engineering.ipynb">HERE</a>
+for the code. <br> <strong>4) Feature Selection</strong>: Please click
+<a
+href="https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/4.%20Feature%20Selection.ipynb">HERE</a>
+for the code. <br> <strong>5) Model Exploration, 6) Financial
+Analysis</strong>: Please click <a
+href="https://nbviewer.org/github/estellecho/Credit-Card-Transactions-Analysis-and-Fraud-Detection/blob/main/5.%20Model%20Exploration%2C%206.%20Financial%20Analysis.ipynb">HERE</a>
+for the code.</p>
+<p><br></p>
+</div>
+<div id="report" class="section level3">
+<h3>5. Report</h3>
+<p>Please click <a
+href="files/Credit%20Card%20Transactions%20Analysis%20and%20Fraud%20Detection%20Report%20(final).pdf">HERE</a>
+for the analysis report.</p>
 </div>
 
 

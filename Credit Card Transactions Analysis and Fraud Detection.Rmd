@@ -1,5 +1,5 @@
 ---
-pagetitle: "Stat1"
+pagetitle: "Credit Card Transactions Analysis and Fraud Detection"
 output:
   html_document:
     toc: true
