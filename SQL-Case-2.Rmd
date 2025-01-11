@@ -57,7 +57,6 @@ output:
   + Show orders shipping to Brazil, Mexico, Argentina, and Venezuela, sorted by freight value.
   + Find the three ship countries with the highest average freight for Speedy Express in 1996.
   + Find salespeople with at least 5 late orders.
-  + Find the most expensive discontinued product with units in stock. 
   + Identify products requiring reordering based on stock and order thresholds. 
   + Produce a report for products with prices above the average but units in stock below average.
   + Identify product categories with average total discounts exceeding the overall average discount.
