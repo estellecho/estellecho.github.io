@@ -46,9 +46,7 @@ output:
 
 <br>
 
-### 2. Queries
-
-**1) Case Questions**
+### 2. Case Questions
 
   + Show a list of entertainers based in ‘Bellevue,’ ‘Redmond,’ or ‘Woodinville’ who do not have a registered email address. Include their stage name, phone number, and city.
   + List entertainers who have either never been booked or do not have a webpage or email address. Sort by entertainer ID in ascending order.
@@ -61,7 +59,9 @@ output:
   + Identify entertainers who have missing or invalid phone numbers (e.g., NULL values or incorrectly formatted numbers). Include their stage name, phone number, and city, sorted alphabetically by stage name.
   + For each entertainer, include their stage name, city, missing/invalid fields (e.g., Email/Phone), and number of distinct musical styles they are associated with but have no engagements for. Sort the results alphabetically by stage name.
 
-**2) Queries Link**
+<br>
+
+### 3. Queries
 
   +  Please click [HERE](https://github.com/estellecho/SQL-Case-1-Vision-Entertainment-Agency/blob/main/SQL%20Case%20%231_Vision%20Entertainment%20Agency.sql) for the queries link.
   
