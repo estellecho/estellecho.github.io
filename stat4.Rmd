@@ -58,8 +58,8 @@ output:
   + Find engagements where the total contract price exceeded $10,000. Include engagement number, entertainer’s stage name, customer name, and contract price.
   + Identify the top 5 customers with the highest total engagement spending in 2017. Include customer name, total spending, and number of engagements booked.
   + List customers who booked engagements with entertainers in more than three different musical styles. Include customer name, total engagement count, and musical styles booked.
-  + List entertainers who have either never been booked or do not have a webpage or email address. Sort the results by entertainer’s ID in ascending order.
   + Identify entertainers who have missing or invalid phone numbers (e.g., NULL values or incorrectly formatted numbers). Include their stage name, phone number, and city, sorted alphabetically by stage name.
+  + For each entertainer, include their stage name, city, missing/invalid fields (e.g., Email/Phone), and number of distinct musical styles they are associated with but have no engagements for. Sort the results alphabetically by stage name.
 
 **2) Queries Link**
 
