@@ -66,4 +66,14 @@ output:
 ### 3. Queries
 
   +  Please click [HERE](https://www.kaggle.com/datasets/cleveranjosqlik/csv-northwind-database) for the original dataset.
-  +  Please click [HERE]() for the queries link.
+  +  Please click [HERE](https://github.com/estellecho/SQL-Case-2-Northwind-Traders-Company/blob/main/SQL%20Case%20%232_Northwind%20Traders%20Company.sql) for the queries link.
+  
+<p align="center">
+<table>
+  <tr>
+    <td><img src="images/SQL 2_1.png" style="width:400px; border:0px solid; margin:5px"></td>
+    <td><img src="images/SQL 2_2.png" style="width:400px; border:0px solid; margin:5px"></td>
+    <td><img src="images/SQL 2_3.png" style="width:400px; border:0px solid; margin:5px"></td>
+  </tr>
+</table>
+</p>
