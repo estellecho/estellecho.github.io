@@ -1,5 +1,5 @@
 ---
-pagetitle: "Spotify Streaming Analysis<br>and Marketing Investment Strategy"
+pagetitle: "Spotify-Streaming-Analysis-and-Marketing-Investment-Strategy"
 output:
   html_document:
     toc: true
