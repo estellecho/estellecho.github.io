@@ -80,9 +80,3 @@ output:
   </tr>
 </table>
 </p>
-
-### 4. Dashboards
-
-![](https://img.shields.io/badge/Using-Tableau%20Software-crimson)
-
-  +  Please click [HERE]() for the Tableau Dashboard.
