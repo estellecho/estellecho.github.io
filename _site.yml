@@ -27,7 +27,7 @@ navbar:
     - icon: fas fa-envelope
       href: contact.html
     - icon: ai-cv ai-lg
-      href: files/Estelle Cho (github)_Resume.pdf
+      href: files/Estelle Cho_Resume.pdf
     # - icon: fab fa-github
     # href: http://github.com/s
     - icon: fab fa-linkedin-in
