@@ -75,4 +75,4 @@ This project uncovered several key insights and patterns that provide a deeper u
 
 ### 5. Report
 
-Please click [HERE](files/Strategic-Market-Valuation-Pricing-Analysis Report.pdf) for the analysis report.
+Please click [HERE](files/Strategic Market Valuation & Pricing Analysis Report.pdf) for the analysis report.
