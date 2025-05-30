@@ -67,9 +67,9 @@ This project uncovered several key insights and patterns that provide a deeper u
 
 ### 4. Code
 
-**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb) for the code.
+**1) Data Quality Report**: Please click [HERE](https://nbviewer.org/github/estellecho/Strategic-Market-Valuation-and-Pricing-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb) for the code.
 <br>
-**2) Data Cleaning, 3) Feature Engineering, 4) Anomaly Detection**: Please click [HERE](https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb) for the code.
+**2) Data Cleaning, 3) Feature Engineering, 4) Anomaly Detection**: Please click [HERE](https://nbviewer.org/github/estellecho/Strategic-Market-Valuation-and-Pricing-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb) for the code.
 
 <br>
 
