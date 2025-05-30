@@ -15,8 +15,8 @@ navbar:
         href: Credit-Card-Transactions-Analysis-and-Fraud-Detection.html
       - text: "Spotify Streaming Analysis and Marketing Investment Strategy"
         href: Spotify-Streaming-Analysis-and-Marketing-Investment-Strategy.html
-      - text: "Strategic Market Valuation & Pricing Analysis"
-        href: Strategic-Market-Valuation-&-Pricing-Analysis.html
+      - text: "Strategic Market Valuation and Pricing Analysis"
+        href: Strategic-Market-Valuation-and-Pricing-Analysis.html
     - text: "SQL Cases"
       menu: 
       - text: "SQL Case 1"
