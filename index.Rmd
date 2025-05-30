@@ -24,4 +24,8 @@ output: html_document
 
 📊 As a **Data and Business Analyst**, I analyzed company and product data, managed dashboards, identified key trends, and developed data-driven strategies. 💼 As a **Data Analytics Consultant**, I interpreted complex datasets, built forecasting and predictive models, and developed revenue projections for business valuations and operational improvements.
 
-🔥 Outside of work, I enjoy exploring nature, playing tennis, practicing hot yoga, cooking, making music, and offering life advice to friends and colleagues!
+🔥 At the heart of what I do is a **genuine curiosity—I’m always asking “Why?”** This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions. 
+
+👯 I genuinely **enjoy working with people from all walks of life—it’s how I learn, grow, and do my best work**. Some of the most rewarding moments have come from teaming up with talented people to drive the best outcomes and create something great.
+
+🧘️ Outside of work, I enjoy exploring nature, playing tennis, practicing hot yoga, cooking, making music, and offering life advice to friends and colleagues!
