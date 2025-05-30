@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title>Strategic Market Valuation and Pricing Analysis</title>
 
 <script src="site_libs/header-attrs-2.27/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -222,6 +225,75 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
 
 </head>
 
@@ -229,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -316,21 +398,97 @@ $(document).ready(function () {
 
 <p><link rel="stylesheet" href="styles.css" type="text/css">
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/></p>
+<div style="text-align: center; font-size: 2em;">
+<p><strong>[Strategic Market Valuation and Pricing
+Analysis]</strong></p>
+</div>
+<p><br></p>
 <p align="center">
-<img src="images/education.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image education">
+<img src="images/ny%20property%20valuation.jpg" style="width:100%; border:0px solid; margin-right: 20px" align=center>
 </p>
 <p align="center">
-<img src="images/professional%20journey.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image professional journey">
-</p>
-<p align="center">
-<img src="images/projects.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image projects">
-</p>
-<p align="center">
-<img src="images/key%20skills.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image key skills">
-</p>
-<p align="center">
-<img src="images/downtime.png" style="width:100%; border:0.001px solid; margin-bottom: 20px;" alt="Image downtime">
-</p>
+<p><br></p>
+<div id="overview" class="section level3">
+<h3>1. Overview</h3>
+<p>The objective of this project is to <strong>analyze property
+valuation components and their interactions to uncover patterns,
+understand influencing factors, and investigate potential property tax
+fraud</strong>. The analysis is based on the New York City Property
+Valuation and Assessment <a
+href="https://data.cityofnewyork.us/Housing-Development/Property-Valuation-and-Assessment-Data/rgy2-tti8/about_data">Dataset</a>,
+provided by the Department of Finance (DOF). This dataset includes
+approximately 1 million property records, combining categorical and
+numerical variables. Each record represents a unique property across the
+city’s five boroughs, offering details such as ownership information,
+address, market value, assessed tax value, and physical characteristics
+(e.g., width, depth, number of stories).</p>
+<p><br></p>
+</div>
+<div id="key-findings" class="section level3">
+<h3>2. Key Findings</h3>
+<p>This project uncovered several key insights and patterns that provide
+a deeper understanding of property valuations and anomaly detection
+processes. (Specific explanations and details can be found in the 5.
+Report below.)</p>
+<p><strong>1) Characteristics of the Dataset</strong></p>
+<ul>
+<li>Interactive relationships between variables were leveraged to
+effectively address missing values.</li>
+<li>For instance, Market Value (FULLVAL), Actual Land Value (AVLAND),
+and Actual Total Value (AVTOT) were filled using a step-by-step
+approach. The process started with grouping by Tax Class, Borough, and
+Building Class to calculate average values, followed by broader
+groupings using Tax Class and Borough, and finally Tax Class alone.</li>
+</ul>
+<p><strong>2) Anomaly Detection</strong></p>
+<ul>
+<li>Using advanced analytics techniques, potential anomalies have been
+identified and assigned fraud scores. Each case requires detailed
+exploration, with the highest-ranking records analyzed through <a
+href="files/(P3)%20Highest%20ranking%20fraud%20owner.png">visual1</a>,
+<a href="files/(P3)%20Heatmap.png">visual2</a> and the <a
+href="files/(Project%203)%20NY_top_lotsize_ne_0.xlsx">Excel</a> file
+output.</li>
+<li>For example, LOGAN PROPERTY, INC. (917942) exhibits anomalies in
+building metrics, with building width and depth recorded as 0, leading
+to a calculated building volume of 0 despite having 3 stories.
+Additionally, the market value ($374M) is illogically lower than both
+the land value ($1.79B) and total value ($4.67B), suggesting potential
+intentional underreporting to minimize tax liabilities.</li>
+</ul>
+<p><br></p>
+</div>
+<div id="approach" class="section level3">
+<h3>3. Approach</h3>
+<p><img src="https://img.shields.io/badge/Using-Python-blue" /> <img
+src="https://img.shields.io/badge/-Data%20Quality%20Check-lightgrey" />
+<img src="https://img.shields.io/badge/-Data%20Cleaning-yellow" /> <img
+src="https://img.shields.io/badge/-Feature%20Engineering-green" /> <img
+src="https://img.shields.io/badge/-Anomaly%20Detection-red" /></p>
+<p><strong>1) Data Quality Report</strong>: Data Quality Check,
+Statistical Analysis, Visualization <br> <strong>2) Data
+Cleaning</strong>: Exclusions, Outliers, Field Imputation <br>
+<strong>3) Feature Engineering</strong>: Variable Creation
+(Preprocessing, Creating Entities) <br> <strong>4) Anomaly
+Detection</strong>: Z-Score Outliers, Autoencoder</p>
+<p><br></p>
+</div>
+<div id="code" class="section level3">
+<h3>4. Code</h3>
+<p><strong>1) Data Quality Report</strong>: Please click <a
+href="https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%201.%20Data%20Quality%20Report.ipynb">HERE</a>
+for the code. <br> <strong>2) Data Cleaning, 3) Feature Engineering, 4)
+Anomaly Detection</strong>: Please click <a
+href="https://nbviewer.org/github/estellecho/New-York-City-s-Property-Valuation-Analysis/blob/main/%28P3%29%202.%20Data%20Cleaning%2C%203.%20Feature%20Engineering%2C%204.%20Anomaly%20Detection.ipynb">HERE</a>
+for the code.</p>
+<p><br></p>
+</div>
+<div id="report" class="section level3">
+<h3>5. Report</h3>
+<p>Please click <a
+href="files/Strategic%20Market%20Valuation%20&amp;%20Pricing%20Analysis%20Report.pdf">HERE</a>
+for the analysis report.</p>
+</div>
 
 
 <br><br>
@@ -339,6 +497,8 @@ $(document).ready(function () {
 </footer>
 
 
+</div>
+</div>
 
 </div>
 
@@ -371,6 +531,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4,h5",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
