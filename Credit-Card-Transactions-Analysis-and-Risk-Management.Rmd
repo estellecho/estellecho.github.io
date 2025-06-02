@@ -1,5 +1,5 @@
 ---
-pagetitle: "Credit-Card-Transactions-Analysis-and-Fraud-Detection"
+pagetitle: "Credit-Card-Transactions-Analysis-and-Risk-Management"
 output:
   html_document:
     toc: true
@@ -13,7 +13,7 @@ output:
 <link rel="stylesheet" href="site_libs/academicons-1.9.1/css/academicons.min.css"/>
 
 <div style="text-align: center; font-size: 2em;">
-  **[Credit Card Transactions Analysis and Fraud Detection]**
+  **[Credit Card Transactions Analysis and Risk Management]**
 </div>
 
 
