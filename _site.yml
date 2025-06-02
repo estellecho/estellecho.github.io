@@ -11,8 +11,8 @@ navbar:
       href: About.html
     - text: "Projects"
       menu: 
-      - text: "Credit Card Transactions Analysis and Fraud Detection"
-        href: Credit-Card-Transactions-Analysis-and-Fraud-Detection.html
+      - text: "Credit Card Transactions Analysis and Risk Management"
+        href: Credit-Card-Transactions-Analysis-and-Risk-Management.html
       - text: "Spotify Streaming Analysis and Marketing Investment Strategy"
         href: Spotify-Streaming-Analysis-and-Marketing-Investment-Strategy.html
       - text: "Strategic Market Valuation and Pricing Analysis"
