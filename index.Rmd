@@ -20,8 +20,6 @@ output: html_document
 </p>
 
 <br>
-🌟 **My journey has been unique**—from English and Cultural Content major, working in Music Entertainment and Business Consulting, to diving into Data Analytics. Looking back, my passion has always been **solving business challenges, analyzing complex data, and turning insights into visuals and reports that help others understand the story behind the numbers**.
-
 🎓 M.S. in **Business Analytics (STEM)** at the **University of Southern California, Marshall School of Business**
 
 📊 **Skills**: Strategic Planning & Execution, Structured Problem Solving, Data Analysis, Data Modeling, Predictive Modeling, Forecasting, Statistical Analysis, Machine Learning, Market Research, Competitive Analysis, Insight Communication, Data Storytelling, Cross-Functional Collaboration, Stakeholder Engagement
@@ -32,4 +30,4 @@ output: html_document
 
 👯 I genuinely **enjoy working with people from all walks of life—it’s how I learn, grow, and do my best work.** Some of the most rewarding moments have come from teaming up with talented people to drive the best outcomes.
 
-🧘️ Outside of work, I enjoy exploring nature, playing tennis, practicing hot yoga, cooking, making music, and offering life advice to friends and colleagues!
+🧘️ Outside of work, I enjoy exploring nature, playing tennis, practicing hot yoga, cooking, making music, and offering life advice to friends!
