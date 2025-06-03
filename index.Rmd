@@ -16,19 +16,20 @@ output: html_document
 <!-- <br> -->
 
 <p align="center">
-  <img src="images/main page pic 2.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
+  <img src="images/main page pic.png" style="width:100%; border:0px solid; margin-right: 20px" align="center">
 </p>
 
 <br>
 🌟 **My journey has been unique**—from English and Cultural Content major, working in Music Entertainment and Business Consulting, to diving into Data Analytics. Looking back, my passion has always been **solving business challenges, analyzing complex data, and turning insights into visuals and reports that help others understand the story behind the numbers**.
 
-🎓 M.S. in **Business Analytics (STEM)** at the University of Southern California, Marshall School of Business
+🎓 M.S. in **Business Analytics (STEM)** at the **University of Southern California, Marshall School of Business**
 
-📊 Skills: Strategic Planning & Execution, Structured Problem Solving, Data Analysis, Data Modeling, Predictive Modeling, Forecasting, Statistical Analysis, Machine Learning, Market Research, Competitive Analysis, Insight Communication, Data Storytelling, Cross-Functional Collaboration, Stakeholder Engagement
-💼Tools: SQL, Python, Excel, Google Sheets, Tabelau, Power BI, Looker, Google Analytics, PowerPoint, Google Slides
+📊 **Skills**: Strategic Planning & Execution, Structured Problem Solving, Data Analysis, Data Modeling, Predictive Modeling, Forecasting, Statistical Analysis, Machine Learning, Market Research, Competitive Analysis, Insight Communication, Data Storytelling, Cross-Functional Collaboration, Stakeholder Engagement
 
-🔥 At the heart of what I do is a genuine curiosity—I’m always asking “Why?” This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions. 
+💼 **Tools**: SQL, Python, Excel, Google Sheets, Tabelau, Power BI, Looker, Google Analytics, PowerPoint, Google Slides
 
-👯 I genuinely enjoy working with people from all walks of life—it’s how I learn, grow, and do my best work. Some of the most rewarding moments have come from teaming up with talented people to drive the best outcomes.
+🔥 At the heart of what I do is a **genuine curiosity—I’m always asking “Why?”** This curiosity drives me to understand problems deeply, explore different perspectives, and come up with practical, creative solutions. 
+
+👯 I genuinely **enjoy working with people from all walks of life—it’s how I learn, grow, and do my best work.** Some of the most rewarding moments have come from teaming up with talented people to drive the best outcomes.
 
 🧘️ Outside of work, I enjoy exploring nature, playing tennis, practicing hot yoga, cooking, making music, and offering life advice to friends and colleagues!
